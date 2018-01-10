@@ -34,8 +34,9 @@ googleAnalytics = ""
 		[params.navigation.links]
 			workshop  = "Workshop"
 			schedule  = "Schedule"
-			portfolio = "Speakers"
-			contact   = "Venue"
+			portfolio = "Portfolio"
+			speakers  = "Speakers"
+			venue     = "Venue"
 			team      = "Team"
 			conduct   = "Conduct"
 			tickets   = "Tickets"
@@ -44,8 +45,9 @@ googleAnalytics = ""
 	# Hero section
 	[params.hero]
 		# To change the background of the hero section, replace the 'header.jpg' at './static/img' with your own.
-		slogan     = "Your awesome slogan"
-		subtitle   = "[Lorem](//google.com) ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis nesciunt consequatur ut nihil voluptatem fugiat eos eveniet alias in veniam?"
+		slogan     = "Singapore Gophercon 2018"
+		subtitle   = "The first and largest Go conference in Southeast Asia!"
+#		subtitle   = "[Lorem](//google.com) ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis nesciunt consequatur ut nihil voluptatem fugiat eos eveniet alias in veniam?"
 		buttonText = "Find out more"
 
 
@@ -80,6 +82,27 @@ googleAnalytics = ""
             title = "Made with Love"
             description = "You have to make your websites with love these days!"
 
+    # Speakers section
+    [params.speakers]
+    	headline = "Conference Speakers"
+
+    # Team seaction
+    [params.team]
+        headline = "Team"
+
+	# Google Maps section
+	[params.venue]
+	 	latitude  = "1.3521"
+	 	longitude = "103.8198"
+	 	maps_api_key = ""
+
+    # Conduct section
+    [params.conduct]
+        headline = "Code of Conduct"
+
+    # Tickets section
+    [params.tickets]
+        headline = "Tickets"
 
     # Portfolio modals
 	[params.portfolio.modal]
@@ -103,8 +126,3 @@ googleAnalytics = ""
 		phone = "123-456-6789"
 		email = "feedback@startbootstrap.com"
 
-	# Google Maps section
-	 [params.location]
-	 	latitude  = "1.3521"
-	 	longitude = "103.8198"
-	 	maps_api_key = ""
