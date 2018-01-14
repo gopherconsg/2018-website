@@ -1,6 +1,0 @@
-[submodule "themes/creative"]
-	path = themes/creative
-	url = https://github.com/digitalcraftsman/hugo-creative-theme
-[submodule "themes/agency"]
-	path = themes/agency
-	url = https://github.com/digitalcraftsman/hugo-agency-theme
