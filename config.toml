@@ -14,14 +14,15 @@ theme = "hugo-elate-theme"
   email = ""
   # Navigation
   [params.navigation]
-    brand = "Singapore Gophercon 2018"
-    home = "Home"
+    brand    = "Singapore Gophercon 2018"
+    home     = "Home"
     workshop = "Workshop"
     schedule = "Schedule"
-    testimonials = "Testimonials"
-    services = "Services"
-    about = "About"
-    contact = "Contact"
+    speakers = "Speakers"
+    venue    = "Venue"
+    team     = "Team"
+    conduct  = "Conduct"
+    ticket   = "Ticket"
 
     # You can add custom links before or after the default links
     # Assign a weight to define the order
@@ -52,84 +53,17 @@ theme = "hugo-elate-theme"
     title = "Go Workshop"
     description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
 
-  [[params.intro.item]]
-    title = "Plan"
-    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
-    url = "#"
-    button = "Get In Touch"
-    icon = "icon-bulb"
-    img = "img_7.jpg"
-
-  [[params.intro.item]]
-    title = "Develop"
-    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
-    url = "#"
-    button = "Click Me"
-    icon = "icon-wrench"
-    img = "img_8.jpg"
-
-  [[params.intro.item]]
-    title = "Launch"
-    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
-    url = "#"
-    button = "Why us?"
-    icon = "icon-rocket"
-    img = "img_10.jpg"
-
-  [params.intro.video]
-    enable = true
-    title = "Watch the video"
-    icon = "icon-play2"
-    url = "https://vimeo.com/channels/staffpicks/93951774"
-
-
   # Work section
   [params.schedule]
     enable = true
-    title = "Work"
+    title = "Schedule"
     description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
     footertext = '** Demo images from <a href="http://plmd.me/" target="_blank">plmd.me</a>'
 
-    [[params.work.row]]
-      img = "work_1.jpg"
-      alt = "Image2"
-      title = "Project 1"
-      subtitle = "Branding"
-
-    [[params.work.row]]
-      img = "work_2.jpg"
-      alt = "Image2"
-      title = "Project 2"
-      subtitle = "Design"
-
-    [[params.work.row]]
-      img = "work_3.jpg"
-      alt = "Image3"
-      title = "Project 3"
-      subtitle = "Design"
-
-    [[params.work.row]]
-      img = "work_4.jpg"
-      alt = "Image4"
-      title = "Project 4"
-      subtitle = "Design"
-
-    [[params.work.row]]
-      img = "work_5.jpg"
-      alt = "Image5"
-      title = "Project 5"
-      subtitle = "Design"
-
-    [[params.work.row]]
-      img = "work_6.jpg"
-      alt = "Image6"
-      title = "Project 6"
-      subtitle = "Design"
-
-  # Testimonials section
-  [params.testimonials]
+  # speakers section
+  [params.speakers]
     enable = true
-    title = "Testimonials"
+    title = "Speakers"
     description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
 
     [[params.testimonials.item]]
@@ -150,13 +84,10 @@ theme = "hugo-elate-theme"
       img = "person3.jpg"
       alt = "Person3"
     
-
-
-
-  # Services section
-  [params.services]
+  # venue section
+  [params.venue]
     enable = true
-    title = "Services"
+    title = "Venue"
     description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
 
     [[params.services.item]]
@@ -179,12 +110,12 @@ theme = "hugo-elate-theme"
       icon = "icon-monitor"
 
   # About section
-  [params.about]
+  [params.team]
     enable = true
-    title = "About"
+    title = "Team"
     description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
 
-    [[params.about.item]]
+    [[params.team.item]]
       name = "Jean Smith"
       position = "Web Designer"
       description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts"
@@ -196,7 +127,7 @@ theme = "hugo-elate-theme"
         ["icon-linkedin", "#"]
       ]
 
-    [[params.about.item]]
+    [[params.team.item]]
       name = "Rob Smith"
       position = "Web Developer"
       description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts"
@@ -208,7 +139,7 @@ theme = "hugo-elate-theme"
         ["icon-github", "#"]
       ]
 
-    [[params.about.item]]
+    [[params.team.item]]
       name = "Larry Ben"
       position = "Web Designer"
       description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts"
@@ -218,7 +149,7 @@ theme = "hugo-elate-theme"
         ["icon-twitter", "#"],
         ["icon-facebook", "#"],
         ["icon-dribbble", "#"]
-      ]      
+      ]
 
   # Counters section
   [params.counters]
@@ -259,11 +190,11 @@ theme = "hugo-elate-theme"
       speed = 5000
 
   # Contact section
-  [params.contact]
+  [params.conduct]
     enable = true
     map = true
     form = true
-    title = "Get in touch"
+    title = "Code of Conduct"
     description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
     
     # Available icons: http://simplelineicons.com/
@@ -280,6 +211,13 @@ theme = "hugo-elate-theme"
     message = "Message"
     button = "Send message"
 
+  # Ticket section
+  [params.ticket]
+    enable = true
+    title = "Tickets"
+    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+    footertext = '** Demo images from <a href="http://plmd.me/" target="_blank">plmd.me</a>'
+  
   # Footer section
   [params.footer]
     enable = true
