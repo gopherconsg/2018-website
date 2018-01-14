@@ -299,7 +299,7 @@ h1, h2, h3, h4, h5, h6 {
 #fh5co-header .navbar-brand {
   float: left;
   display: block;
-  font-size: 30px;
+  font-size: 1em;
   font-weight: 700;
   padding-left: 0;
   color: #fff;
