@@ -1,6 +1,6 @@
 # Page settings
 baseurl = "localhost:1313"
-title = "Elate theme"
+title = "Gophercon 2018"
 languageCode = "en-us"
 theme = ""
 
