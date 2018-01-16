@@ -10,17 +10,43 @@
 </head>
 
 <body>
-	{{ partial "nav.html" .}} {{ partial "hero.html" .}} {{ if .Site.Params.workshop.enable }} {{ partial "workshop.html" .}}
-	{{ end }} {{ if .Site.Params.schedule.enable }} {{ partial "schedule.html" .}} {{ end }} {{ if .Site.Params.speakers.enable
-	}} {{ partial "speakers.html" .}} {{ end }} {{ if .Site.Params.venue.enable }} {{ partial "venue.html" .}} {{ end }} {{
-	if .Site.Params.team.enable }} {{ partial "team.html" .}} {{ end }} {{ if .Site.Params.conduct.enable }} {{ partial "conduct.html"
-	.}} {{ end }} {{ if .Site.Params.ticket.enable }} {{ partial "ticket.html" .}} {{ end }}
+	{{ partial "nav.html" .}}
 
-	<!-- {{ if .Site.Params.footer.enable }}
+		{{ partial "hero.html" .}}
+
+        {{ if .Site.Params.workshop.enable }}
+            {{ partial "workshop.html" .}}
+        {{ end }}
+		
+		{{ if .Site.Params.schedule.enable }}
+       		{{ partial "schedule.html" .}}
+       	{{ end }}
+
+		{{ if .Site.Params.speakers.enable }}
+        	{{ partial "speakers.html" .}}
+		{{ end }}
+
+		{{ if .Site.Params.venue.enable }}
+        	{{ partial "venue.html" .}}
+		{{ end }}
+
+		{{ if .Site.Params.team.enable }}
+        	{{ partial "team.html" .}}
+		{{ end }}
+
+		{{ if .Site.Params.conduct.enable }}
+        	{{ partial "conduct.html" .}}
+        {{ end }}
+
+		{{ if .Site.Params.ticket.enable }}
+        	{{ partial "ticket.html" .}}
+		{{ end }}
+
+        {{ if .Site.Params.footer.enable }}
         	{{ partial "footer.html" .}}
-        {{ end }} -->
+        {{ end }}
 
-	{{ partial "js.html" .}}
+        {{ partial "js.html" .}}
 </body>
 
 </html>
