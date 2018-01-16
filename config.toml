@@ -43,7 +43,7 @@ theme = ""
   [params.hero]
     title = "Do something you love."
     subtitle = 'Another free HTML5 bootstrap template by <a href="http://freehtml5.co/" target="_blank" title="Free HTML5 Bootstrap Templates">FREEHTML5.co</a> released under <a href="http://creativecommons.org/licenses/by/3.0/" target="_blank">Creative Commons 3.0</a><br> ported for Hugo by <a href="http://saey55.gitlab.io/pietercv" target="_blank">Pieter Saey</a>'
- 
+
   # Intro section
   # Available icons: http://simplelineicons.com/
   [params.workshop]
