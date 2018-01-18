@@ -3,19 +3,31 @@
 		<i class="icon-arrow-up2"></i>
 	</a>
 	<div class="container">
-		<div class="">
-			<div class="col-md-12 text-center">
-				<!-- <p>{{ with .Site.Params.footer.copyright }}{{ . | markdownify }}{{ end }}</p> -->
-
-			</div>
-		</div>
 		<div class="row">
-			<div class="col-md-12 text-center">
-				<ul class="social social-circle">
-					<!-- <li><a href="#"><i class="icon-twitter"></i></a></li>
-						<li><a href="#"><i class="icon-facebook"></i></a></li>
-						<li><a href="#"><i class="icon-youtube"></i></a></li> -->
-				</ul>
+			<div class="col-md-6 text-left">
+					<a class="social-links" href="https://twitter.com/gopherconsg" target="_blank">
+						<p class="text-faded">
+							<i class="fa fa-twitter fa-lg" aria-hidden="true"></i>
+						</p>
+					</a>
+					<a class="social-links" href="https://www.facebook.com/GopherConSG" target="_blank">
+						<p class="text-faded">
+							<i class="fa fa-facebook fa-lg" aria-hidden="true"></i>
+						</p>
+					</a>
+				{{ with .Site.Params.footer.description}}
+				<a href="mailto:hello@gophercon.sg">
+					<p class="text-faded">{{ . | markdownify }}</p>
+				</a>
+				<iframe src="https://ghbtns.com/github-btn.html?user=gopherconsg&repo=website&type=fork&count=true" frameborder="0" scrolling="0"
+				    width="170px" height="20px"></iframe>
+				{{ end }}
+				<div class="credit-text medium-text">&copy Copyright GopherCon.SG 2018</div>
+				<div class="credit-text small-text">The Gopher character is based on the Go mascot designed by Renee French and copyrighted under
+					<a rel="license" href="http://creativecommons.org/licenses/by/3.0/us/">
+						<img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/3.0/us/80x15.png" />
+					</a>
+				</div>
 			</div>
 		</div>
 	</div>
