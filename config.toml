@@ -1,6 +1,6 @@
 # Page settings
 baseurl = "localhost:1313"
-title = "Gophercon 2018"
+title = "GopherCon Singapore 2018"
 languageCode = "en-us"
 theme = ""
 
@@ -14,7 +14,7 @@ theme = ""
   email = ""
   # Navigation
   [params.navigation]
-    brand    = "Singapore Gophercon 2018"
+    brand    = "GopherCon Singapore 2018"
     home     = "Home"
     workshop = "Workshop"
     schedule = "Schedule"
