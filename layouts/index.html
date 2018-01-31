@@ -41,6 +41,10 @@
 		{{ if .Site.Params.ticket.enable }}
         	{{ partial "ticket.html" .}}
 		{{ end }}
+		
+		{{ if .Site.Params.pastvideo.enable }}
+        	{{ partial "video2017.html" .}}
+		{{ end }}
 
         {{ if .Site.Params.footer.enable }}
         	{{ partial "footer.html" .}}
