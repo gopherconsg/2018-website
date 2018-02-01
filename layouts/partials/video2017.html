@@ -1,32 +1,36 @@
-<section id="fh5co-testimonials" data-section="pastvideo">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-12 section-heading text-center">
-					<h2 class="to-animate">{{ with .Site.Params.pastvideo.title }}{{ . | markdownify }}{{ end }}</h2>
-					<div class="row">
-						<div class="col-md-8 col-md-offset-2 subtext to-animate text-left">
-						<p>We welcome speakers from varying backgrounds. You do not have to be an experienced speaker or an experienced programmer to be considered for speaking at GopherCon Singapore. We aim to ensure that the conference is welcoming and relevant to both beginner and experienced programmers.</p>	
-						<p>You may submit proposals for any of these talks:</p>
-						<p>Main conference (Time limit: 20 mins) Lightning talks (Time Limit: 5-10 mins) The choice of topic is yours. Go is so ubiquitous that people are using it in back-end services, distributed systems, databases, mobile, embedded systems, etc. We would also love to hear about your best practices, cautionary tales, future visions and hard-won lessons.</p>
-						<p>The submission process is anonymized. We take into account quality, relevance, novelty, and practical impact. Final selection is done by the organizing committee.</p>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="row">
-			{{ range .Site.Params.speakers.item }}
-				<div class="col-md-4">
-					<div class="box-testimony">
-						<blockquote class="to-animate-2">
-							<p>{{ .quote | markdownify}}</p>
-						</blockquote>
-						<div class="author to-animate">
-							<figure><img src="images/{{ .img }}" alt="{{ .alt }}"></figure>
-							<p>{{ .person | markdownify }}</p>
-						</div>
-					</div>
-				</div>
-			{{ end }}
-			</div>
-		</div>
-	</section>
+<section id="fh5co-pastvideos" data-section="pastvideo">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 section-heading text-center">
+                <h2 class="to-animate">{{ with .Site.Params.pastvideo.title }}{{ . }}{{ end }}</h2>
+                <div class="row">
+                    <div class="col-md-8 col-md-offset-2 subtext to-animate">
+                        <h3>{{ with .Site.Params.pastvideo.description }}{{ . | markdownify }}{{ end }}</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row row-bottom-padded-sm">
+            {{ range .Site.Params.pastvideo.row }}
+            <div class="col-md-6 col-sm-6 col-xxs-12">
+                <div class="fh5co-project-item to-animate">
+                    <!-- <a href="images/{{ .img }}" class="fh5co-project-item image-popup to-animate"> -->
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/vvu0df82SJI?rel=0" frameborder="0" allow="encrypted-media" allowfullscreen></iframe>
+                    <div class="fh5co-text">
+                        <h2>{{ .title }}</h2>
+                        <span>{{ .subtitle }}</span>
+                    </div>
+                    <!-- </a> -->
+                </div>
+            </div>
+
+            <div class="clearfix visible-sm-block"></div>
+            {{ end }}
+        </div>
+        <div class="row">
+            <div class="col-md-12 text-center to-animate">
+                <p>2017 Conference talks</p>
+            </div>
+        </div>
+    </div>
+</section>

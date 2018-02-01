@@ -44,6 +44,107 @@ theme = ""
   [params.hero]
     title = "Do something you love."
     subtitle = 'Another free HTML5 bootstrap template by <a href="http://freehtml5.co/" target="_blank" title="Free HTML5 Bootstrap Templates">FREEHTML5.co</a> released under <a href="http://creativecommons.org/licenses/by/3.0/" target="_blank">Creative Commons 3.0</a><br> ported for Hugo by <a href="http://saey55.gitlab.io/pietercv" target="_blank">Pieter Saey</a>'
+     [[params.hero.pastvideo.row]]
+      video = "https://www.youtube.com/embed/vvu0df82SJI?rel=0" 
+      title = "Project 1"
+      subtitle = "Branding"
+      slideto = 1
+
+    [[params.hero.pastvideo.row]]
+      video = "https://www.youtube.com/embed/KPk1UPihWtY?rel=0"
+      title = "Project 2"
+      subtitle = "Design"
+      slideto = 2 
+
+    [[params.hero.pastvideo.row]]
+      video = "https://www.youtube.com/embed/2557w0qsDV0?rel=0"
+      title = "Project 3"
+      subtitle = "Design"
+      slideto = 3 
+
+    [[params.hero.pastvideo.row]]
+      video="https://www.youtube.com/embed/sxjIaF6xAK0?rel=0"
+      title = ""
+      subtitle = ""      
+      slideto = 4 
+
+    [[params.hero.pastvideo.row]]
+      video="https://www.youtube.com/embed/fd4EPh2tYrk?rel=0"
+      title = ""
+      subtitle = ""      
+      slideto = 5 
+
+    [[params.hero.pastvideo.row]]
+      video="https://www.youtube.com/embed/ttmzQbaYjjk?rel=0"
+      title = ""
+      subtitle = ""      
+      slideto = 6 
+
+    [[params.hero.pastvideo.row]]
+      video="https://www.youtube.com/embed/YmARDfv6VN8?rel=0"
+      title = ""
+      subtitle = ""      
+      slideto = 7 
+    
+    [[params.hero.pastvideo.row]]
+      video="https://www.youtube.com/embed/nm2A80PfYww?rel=0"
+      title = ""
+      subtitle = ""      
+      slideto = 8 
+   
+    [[params.hero.pastvideo.row]]
+      video="https://www.youtube.com/embed/64XXaIC-K74?rel=0"
+      title = ""
+      subtitle = ""      
+      slideto = 9
+
+    [[params.hero.pastvideo.row]]
+      video="https://www.youtube.com/embed/a6oP24CSdUg?rel=0"
+      title = ""
+      subtitle = ""      
+      slideto = 10 
+  
+    [[params.hero.pastvideo.row]]
+      video="https://www.youtube.com/embed/-OSZEPyhYhQ?rel=0"
+      title = ""
+      subtitle = ""      
+      slideto = 11 
+ 
+    [[params.hero.pastvideo.row]]
+      video="https://www.youtube.com/embed/9RsIoR1Pr6k?rel=0"
+      title = ""
+      subtitle = ""      
+      slideto = 12 
+
+    [[params.hero.pastvideo.row]]
+      video="https://www.youtube.com/embed/cHXbYLNa0qQ?rel=0"
+      title = ""
+      subtitle = ""      
+      slideto = 13 
+
+    [[params.hero.pastvideo.row]]
+      video="https://www.youtube.com/embed/_7pWCg94sKw?rel=0"
+      title = ""
+      subtitle = ""      
+      slideto = 14 
+
+    [[params.hero.pastvideo.row]]
+     video="https://www.youtube.com/embed/AJHUcHGM3Eg?rel=0"
+      title = ""
+      subtitle = ""      
+      slideto = 15 
+
+    [[params.hero.pastvideo.row]]
+      video="https://www.youtube.com/embed/yKQOunhhf4A?rel=0"
+      title = ""
+      subtitle = ""      
+      slideto = 16 
+
+    [[params.hero.pastvideo.row]]
+     video="https://www.youtube.com/embed/3mdwXcFYlqw?rel=0"
+     title = ""
+     subtitle = ""     
+      slideto = 17 
 
   # Intro section
   # Available icons: http://simplelineicons.com/
@@ -185,27 +286,46 @@ theme = ""
 
   # 2017 Video
   [params.pastvideo]
-    enable = true 
-    title = "2017 Videos"
+    enable = false 
+    title = "Work"
     description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+    footertext = '** Demo images from <a href="http://plmd.me/" target="_blank">plmd.me</a>'
 
-    [[params.video.item]]
-      quote = "&ldquo;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.&rdquo;"
-      person = 'Jean Doe, CEO <a href="http://freehtml5.co/" target="_blank">FREEHTML5.co</a> <span class="subtext">Creative Director</span>'
-      img = "person1.jpg"
-      alt = "Person1"
+    [[params.pastvideo.row]]
+      img = "work_1.jpg"
+      alt = "Image2"
+      title = "Project 1"
+      subtitle = "Branding"
 
-    [[params.video.item]]
-      quote = "&ldquo;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.&rdquo;"
-      person = 'John Doe, Senior UI <a href="http://freehtml5.co/" target="_blank">FREEHTML5.co</a> <span class="subtext">Creative Director</span>'
-      img = "person2.jpg"
-      alt = "Person2"
+    [[params.pastvideo.row]]
+      img = "work_2.jpg"
+      alt = "Image2"
+      title = "Project 2"
+      subtitle = "Design"
 
-    [[params.video.item]]
-      quote = "&ldquo;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. &rdquo;"
-      person = 'Chris Nash, Director <a href="http://freehtml5.co/" target="_blank">FREEHTML5.co</a> <span class="subtext">Creative Director</span>'
-      img = "person3.jpg"
-      alt = "Person3" 
+    [[params.pastvideo.row]]
+      img = "work_3.jpg"
+      alt = "Image3"
+      title = "Project 3"
+      subtitle = "Design"
+
+    [[params.pastvideo.row]]
+      img = "work_4.jpg"
+      alt = "Image4"
+      title = "Project 4"
+      subtitle = "Design"
+
+    [[params.pastvideo.row]]
+      img = "work_5.jpg"
+      alt = "Image5"
+      title = "Project 5"
+      subtitle = "Design"
+
+    [[params.pastvideo.row]]
+      img = "work_6.jpg"
+      alt = "Image6"
+      title = "Project 6"
+      subtitle = "Design"
 
   # Footer section
   [params.footer]
