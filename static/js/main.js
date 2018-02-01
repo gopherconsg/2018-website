@@ -206,15 +206,15 @@
 	};
 
 	var workAnimate = function() {
-		if ( $('#fh5co-work').length > 0 ) {	
+		if ( $('#fh5co-pastvideos').length > 0 ) {	
 
-			$('#fh5co-work').waypoint( function( direction ) {
+			$('#fh5co-pastvideos').waypoint( function( direction ) {
 										
 				if( direction === 'down' && !$(this.element).hasClass('animated') ) {
 
 
 					setTimeout(function() {
-						$('#fh5co-work .to-animate').each(function( k ) {
+						$('#fh5co-pastvideos .to-animate').each(function( k ) {
 							var el = $(this);
 							
 							setTimeout ( function () {
@@ -458,6 +458,34 @@
 		}
 	};
 
+	var pastvideoAnimate = function() {
+		console.log('animation on this item')
+		var about = $('#fh5co-pastvideos');
+		if ( about.length > 0 ) {	
+			about.waypoint( function( direction ) {
+										
+				if( direction === 'down' && !$(this.element).hasClass('animated') ) {
+					setTimeout(function() {
+						about.find('.to-animate').each(function( k ) {
+							var el = $(this);
+							
+							setTimeout ( function () {
+								el.addClass('fadeInUp animated');
+							},  k * 200, 'easeInOutExpo' );
+							
+						});
+					}, 200);
+
+					
+
+					$(this.element).addClass('animated');
+						
+				}
+			} , { offset: '80%' } );
+
+		}
+	};
+
 
 	
 	
@@ -492,8 +520,8 @@
 		ticketAnimate();
 		countersAnimate();
 		contactAnimate();
-		
-
+		pastvideoAnimate();
+	
 	});
 
 

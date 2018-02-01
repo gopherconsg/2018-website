@@ -64,20 +64,28 @@
                             <span>{{ with .Site.Params.navigation.conduct}}{{ . | markdownify }}{{ end }}</span>
                         </a>
                     </li>
-                    {{ end }} {{ if .Site.Params.ticket.enable }}
+                    {{ end }}
+                    {{ if .Site.Params.ticket.enable }}
                     <li>
                         <a href="#" data-nav-section="ticket">
                             <span>{{ with .Site.Params.navigation.ticket}}{{ . | markdownify }}{{ end }}</span>
                         </a>
                     </li>
-                    {{ end }} {{ range .Site.Menus.postpend }}
+                    {{ end }} 
+                    {{ if .Site.Params.pastvideo.enable }}
+                    <li>
+                        <a href="#" data-nav-section="pastvideo">
+                            <span>{{ with .Site.Params.navigation.pastvideo}}{{ . | markdownify }}{{ end }}</span>
+                        </a>
+                    </li>
+                    {{ end }} 
+                    {{ range .Site.Menus.postpend }}
                     <li>
                         <a class="external" href="{{ .URL }}">
                             <span>{{ .Name | markdownify }}</span>
                         </a>
                     </li>
-                    {{ end }}
-                </ul>
+                    {{ end }} </ul>
             </div>
         </nav>
         <!-- </div> -->
