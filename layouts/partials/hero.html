@@ -1,4 +1,4 @@
-<section id="fh5co-home" data-section="home" style="background-image: url(images/full_image_2.jpg);" data-stellar-background-ratio="0.5">
+<section id="fh5co-home" data-section="home" data-stellar-background-ratio="0.5">
 	<div class="gradient"></div>
 	<div class="container">
 		<div class="text-wrap">
@@ -11,36 +11,65 @@
 				</div>
 				<div class="row">
 					<div class="col-md-12">
-						<img src="images/logo-gopherConSg2018-square.png" width="600" class="img-responsive center-block" alt="Gophercon Singapore 2018"
+						<img src="images/logo-gopherConSg2018-square.png" width="350" class="img-responsive center-block" alt="Gophercon Singapore 2018"
 						/>
+					</div>
+
+				</div>
+				<div class="row">
+					<div class="col-md-12">
+						Check out what happened last year!
+						<div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="false">
+							<!-- Indicators -->
+							<ol class="carousel-indicators">
+								<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+								{{ range .Site.Params.hero.pastvideo.row }}
+								<li data-target="#myCarousel" data-slide-to="{{ .slideto }}" class=""></li>
+								{{ end }}
+							</ol>
+							<div class="carousel-inner" role="listbox">
+								<div class="item active">
+									<iframe src="https://www.youtube.com/embed/Jpgqy8K6cyc?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+								</div>
+								{{ range .Site.Params.hero.pastvideo.row }}
+								<div class="item">
+									<iframe src="{{.video}}" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+								</div>
+								{{ end }}
+							</div>
+							<a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+								<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+								<span class="sr-only">Previous</span>
+							</a>
+							<a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+								<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+								<span class="sr-only">Next</span>
+							</a>
+						</div>
+						<br/>
 					</div>
 				</div>
 				<div class="row">
 					<div class="row">
-						<div>
-							<p>
-								<a class="external" target="_blank" href="https://www.youtube.com/watch?v=vvu0df82SJI&list=PLq2Nv-Sh8EbZEjZdPLaQt1qh_ohZFMDj8">Check out 2017 GopherconSG</a>
-							</p>
-						</div>
-						<div>
-							Workshop - May 03, 2018
-						</div>
-						<div>
-							<p>Conference - May 04, 2018</p>
-						</div>
-						<div class="col-md-12">
-							<p>We are currently soliciting talk proposals from now till 28 Feb 2018.</p>
-						</div>
-						<div class="col-md-12">
-							<a href="https://www.papercall.io/cfps/871/submissions/new" target="_blank" class="btn btn-primary btn-xl hero-btn">Paper Submission</a>
-						</div>
+						
+						Workshop - May 03, 2018
 					</div>
-					<div class="row">
-						<div class="home-padding"></div>
+					<div>
+						<p>Conference - May 04, 2018</p>
 					</div>
+					<div class="col-md-12">
+						<p>We are currently soliciting talk proposals from now till 28 Feb 2018.</p>
+					</div>
+					<div class="col-md-12">
+						<a href="https://www.papercall.io/cfps/871/submissions/new" target="_blank" class="btn btn-primary btn-xl hero-btn">Paper Submission</a>
+					</div>
+				</div>
+				<div class="row">
+					<div class="home-padding"></div>
 				</div>
 			</div>
 		</div>
+	</div>
 	</div>
 	<div class="slant"></div>
 </section>

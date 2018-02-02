@@ -20,3 +20,53 @@
 .social-links p {
     display: inline;
   }
+
+  .vertical-align {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .vertical-align > [class^="col-"],
+  .vertical-align > [class*=" col-"] {
+    display: flex;
+    align-items: center;     /* Align the flex-items vertically */
+    justify-content: center; /* Optional, to align inner flex-items
+                                horizontally within the column  */
+  }
+
+  /* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+/* Carousel base class */
+.carousel {
+    margin: auto;
+    max-width: 550px;
+    max-height: 310px; /
+    margin-bottom: 60px;
+  }
+  /* Since positioning the image, we need to help out the caption */
+  .carousel-caption {
+    z-index: 10;
+  }
+  
+  /* Declare heights because of positioning of img element */
+  .carousel .item {
+    /* min-height: 275px;  */
+    max-width: 550px;
+    max-height: 310px;
+    background-color: #777;
+  }
+  .carousel-inner > .item > iframe{
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    height: 310px;
+  }
+
+  .vcenter {
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+}
+
+/** ------------------------------------------- **/
