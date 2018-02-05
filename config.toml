@@ -48,11 +48,36 @@ theme = ""
   # Intro section
   # Available icons: http://simplelineicons.com/
   [params.workshop]
-    enable=false
+    enable = true
     map = true
     form = true
     title = "Go Workshop"
-    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+    date = "May 03, 2018"
+    venue = "TBC"
+    profile = "bill.jpg"
+    instructor="William Kennedy"
+    instructorbio="William Kennedy is a managing partner at Ardan Studio in Miami, Florida, a mobile, web, and systems development company. He is also a co-author of the book Go in Action, the author of the blog GoingGo.Net, and a founding member of GoBridge which is working to increase Go adoption through diversity."
+    description = "This class provides an idiomatic introduction to the Go programming language supported by extensive examples and hands-on exercises. We focus on both the specification and implementation of the language including topics ranging from language syntax, Go’s type system, testing and more. We believe this class is perfect for anyone who wants a jump start in learning Go."
+    mapiframeurl = "https://www.google.com/maps/embed/v1/place?q=singapore&key=AIzaSyAV_g95uyyqNxmyTKx1IkdPXtKCnDAElc0"
+
+    [[params.workshop.outline.item]]
+      outline="Philosophy of Go"
+    [[params.workshop.outline.item]]
+      outline="Language Syntax"
+    [[params.workshop.outline.item]]
+      outline="Using Pointers"
+    [[params.workshop.outline.item]]
+      outline="Arrays, Slices and Maps"
+    [[params.workshop.outline.item]]
+      outline="Methods and Interfaces"
+    [[params.workshop.outline.item]]
+      outline="Packaging and Exporting"
+    [[params.workshop.outline.item]]
+      outline="Testing"
+    [[params.workshop.outline.item]]
+      outline="Managing External Dependencies"
+    [[params.workshop.outline.item]]
+      outline="Standard Library"
 
   # Work section
   [params.schedule]
@@ -178,7 +203,7 @@ theme = ""
 
   # Ticket section
   [params.ticket]
-    enable = false
+    enable = true
     title = "Tickets"
     description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
     footertext = '** Demo images from <a href="http://plmd.me/" target="_blank">plmd.me</a>'
