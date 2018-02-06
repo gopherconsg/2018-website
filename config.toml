@@ -16,13 +16,13 @@ theme = ""
   [params.navigation]
     brand    = "GopherCon Singapore 2018"
     home     = "Home"
-    workshop = "Workshop"
+    workshop = "Workshops"
     schedule = "Schedule"
     speakers = "Speakers"
     venue    = "Venue"
     team     = "Team"
-    conduct  = "Conduct"
-    ticket   = "Ticket"
+    conduct  = "Code of Conduct"
+    ticket   = "Get Your Tickets"
     pastvideo= "2017 Videos"
 
     # You can add custom links before or after the default links
@@ -51,9 +51,9 @@ theme = ""
     enable = true
     map = true
     form = true
-    title = "Go Workshop"
+    title = "Workshops"
     date = "May 03, 2018"
-    venue = "TBC"
+    venue = "To be confirmed."
     profile = "bill.jpg"
     instructor="William Kennedy"
     instructorbio="William Kennedy is a managing partner at Ardan Studio in Miami, Florida, a mobile, web, and systems development company. He is also a co-author of the book Go in Action, the author of the blog GoingGo.Net, and a founding member of GoBridge which is working to increase Go adoption through diversity."
