@@ -1271,6 +1271,10 @@ h6 {
   width: 101%;
 }
 
+#fh5co-ticket .section-heading h2 {
+  color: #fff;
+}
+
 #fh5co-ticket services:before {
   top: 0;
   margin-top: -35px;

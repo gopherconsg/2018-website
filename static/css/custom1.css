@@ -178,3 +178,16 @@ figure.twitter-logo img {
   width: 30px;
   height: 30px;
 }
+
+
+/* TITO custom CSS */
+.tito-ticket-name{
+  text-align: left;
+  color: white;
+}
+
+.tito-ticket-description{
+  color: #0000008f;
+  font-size: 12px;
+  text-align: left;
+}
