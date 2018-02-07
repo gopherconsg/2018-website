@@ -16,13 +16,13 @@ theme = ""
   [params.navigation]
     brand    = "GopherCon Singapore 2018"
     home     = "Home"
-    workshop = "Workshop"
+    workshop = "Workshops"
     schedule = "Schedule"
     speakers = "Speakers"
     venue    = "Venue"
     team     = "Team"
-    conduct  = "Conduct"
-    ticket   = "Ticket"
+    conduct  = "Code of Conduct"
+    ticket   = "Get Your Tickets"
     pastvideo= "2017 Videos"
 
     # You can add custom links before or after the default links
@@ -48,11 +48,46 @@ theme = ""
   # Intro section
   # Available icons: http://simplelineicons.com/
   [params.workshop]
-    enable=false
+    enable = true
     map = true
     form = true
-    title = "Go Workshop"
-    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+    title = "Workshops"
+    date = "May 03, 2018"
+    venue = "To be confirmed."
+    profile = "bill.jpg"
+    instructor="William Kennedy"
+    instructorbio="William Kennedy is a managing partner at Ardan Studio in Miami, Florida, a mobile, web, and systems development company. He is also a co-author of the book Go in Action, the author of the blog GoingGo.Net, and a founding member of GoBridge which is working to increase Go adoption through diversity."
+    fundamentalsdescription = "This class provides an idiomatic introduction to the Go programming language supported by extensive examples and hands-on exercises. We focus on both the specification and implementation of the language including topics ranging from language syntax, Go’s type system, testing and more. We believe this class is perfect for anyone who wants a jump start in learning Go."
+    ultimatedescription="This is for any intermediate-level developer who has some experience with other programming languages and wants to learn Go. This class will provide a jump start in learning Go and provide a more thorough understanding of the language and its internals."
+    mapiframeurl = "https://www.google.com/maps/embed/v1/place?q=singapore&key=AIzaSyAV_g95uyyqNxmyTKx1IkdPXtKCnDAElc0"
+
+    [[params.workshop.outline.fundamentals]]
+      item="Philosophy of Go"
+    [[params.workshop.outline.fundamentals]]
+      item="Language Syntax"
+    [[params.workshop.outline.fundamentals]]
+      item="Using Pointers"
+    [[params.workshop.outline.fundamentals]]
+      item="Arrays, Slices and Maps"
+    [[params.workshop.outline.fundamentals]]
+      item="Methods and Interfaces"
+    [[params.workshop.outline.fundamentals]]
+      item="Packaging and Exporting"
+    [[params.workshop.outline.fundamentals]]
+      item="Testing"
+    [[params.workshop.outline.fundamentals]]
+      item="Managing External Dependencies"
+    [[params.workshop.outline.fundamentals]]
+      item="Standard Library"
+
+    [[params.workshop.outline.ultimate]]
+      item="Language Syntax"
+    [[params.workshop.outline.ultimate]]
+      item="Data Structures"
+    [[params.workshop.outline.ultimate]]
+      item="Decoupling"
+    [[params.workshop.outline.ultimate]]
+      item="Concurrency"
 
   # Work section
   [params.schedule]
@@ -178,7 +213,7 @@ theme = ""
 
   # Ticket section
   [params.ticket]
-    enable = false
+    enable = true 
     title = "Tickets"
     description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
     footertext = '** Demo images from <a href="http://plmd.me/" target="_blank">plmd.me</a>'

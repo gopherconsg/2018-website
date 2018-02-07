@@ -70,3 +70,124 @@
 }
 
 /** ------------------------------------------- **/
+.speaker-block {
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-align: center;
+  -webkit-box-align: center;
+  align-items: center;
+  -ms-flex-pack: start;
+  -webkit-box-pack: start;
+  justify-content: flex-start;
+}
+
+.speaker-brand {
+  text-align: center;
+}
+
+.speaker-brand .speaker-name {
+  color: #2a70c6;
+  font-size: 1.5em;
+  margin-bottom: 1.2em;
+}
+
+.speaker-block .speaker-bio {
+  margin-top: 1.2em;
+}
+
+@media(max-width: 500px) {
+  .article {
+    padding: 80px 20px;
+  }
+  .cover-img {
+      padding:0 50px;
+  }
+
+  .speaker {
+    display: block;
+    margin: 0 auto;
+    min-height: 500px;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+
+  .speaker-img {
+    width: 170px;
+    height: 170px;
+    margin: 0 auto 20px auto;
+  }
+
+  .speaker-content {
+    max-width: 100%;
+    margin-bottom: 50px;
+    -ms-flex: 0 0 start;
+      -webkit-box-flex: 0;
+        flex: 0 0 start;
+  }
+
+  .speaker-name a, .keynote-tag, .speaker-caption {
+    text-align: center;
+    display: block;
+  }
+
+  .keynote-tag, .speaker-caption {
+    padding-bottom: 0.5em;
+  }
+
+}
+
+.speaker {
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: flex;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -ms-flex-align: center;
+  -webkit-box-align: center;
+  align-items: center;
+  padding-top: 55px;
+  margin-bottom: 20px;
+}
+
+.speaker-img {
+  width: 170px;
+  height: 170px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+.speaker-img-xs {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 0 1.5em 0 0;
+}
+
+img.speaker-img-responsive {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+figure.twitter-logo img {
+  width: 30px;
+  height: 30px;
+}
+
+
+/* TITO custom CSS */
+.tito-ticket-name{
+  text-align: left;
+  color: white;
+}
+
+.tito-ticket-description{
+  color: #0000008f;
+  font-size: 12px;
+  text-align: left;
+}
