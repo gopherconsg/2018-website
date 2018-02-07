@@ -12,6 +12,7 @@ theme = ""
   author = ""
   description = ""
   email = ""
+  socialimage = "logo-gopherConSg2018-landscape.png"
   # Navigation
   [params.navigation]
     brand    = "GopherCon Singapore 2018"
