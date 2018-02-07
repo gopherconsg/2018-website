@@ -10,7 +10,7 @@ theme = ""
 
   # Meta
   author = ""
-  description = ""
+  description = "GopherCon Singapore 2018 is a Go programming language (Golang) conference held in Singapore."
   email = ""
   socialimage = "logo-gopherConSg2018-social.png"
   # Navigation
