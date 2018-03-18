@@ -1710,7 +1710,7 @@ h6 {
 
 .comment {
 	font-size: .80em;
-	background-color: #f0f0f0;
+	/* background-color: #f0f0f0; */
 	margin: 10px;
 }
 a.morelink {
