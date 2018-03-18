@@ -92,34 +92,51 @@ theme = ""
 
   # Work section
   [params.schedule]
-    enable = false
+    enable = true
     title = "Schedule"
-    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+    description = "Coming Soon..."
     footertext = '** Demo images from <a href="http://plmd.me/" target="_blank">plmd.me</a>'
 
   # speakers section
   [params.speakers]
     enable = true 
     title = "Speakers"
-    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
 
-    [[params.testimonials.item]]
-      quote = "&ldquo;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.&rdquo;"
-      person = 'Jean Doe, CEO <a href="http://freehtml5.co/" target="_blank">FREEHTML5.co</a> <span class="subtext">Creative Director</span>'
-      img = "person1.jpg"
+    [[params.speakers.item]]
+      name = "Russ Cox"
+      position = "Keynote Opening"
+      description = "Russ Cox is the tech lead for the Go project at Google. He wrote the go command, including \"go get\", and is responsible for most of what you love and hate about it."
+      img = "RussCox.jpg"
       alt = "Person1"
+      social = [
+        ["icon-twitter", "#"],
+        ["icon-facebook", "#"],
+        ["icon-linkedin", "#"]
+      ]
 
-    [[params.testimonials.item]]
-      quote = "&ldquo;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.&rdquo;"
-      person = 'John Doe, Senior UI <a href="http://freehtml5.co/" target="_blank">FREEHTML5.co</a> <span class="subtext">Creative Director</span>'
-      img = "person2.jpg"
+    [[params.speakers.item]]
+      name = "Veronica Lopez"
+      position = "Invited"
+      description = "Verónica López is a Mexican computer scientist who currently finds joy building distributed systems with Go (@CoreOS) and Elixir, and trying to make physics and computer science converge."
+      img = "veronicalopez.png"
       alt = "Person2"
+      social = [
+        ["icon-twitter", "#"],
+        ["icon-facebook", "#"],
+        ["icon-github", "#"]
+      ]
 
-    [[params.testimonials.item]]
-      quote = "&ldquo;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. &rdquo;"
-      person = 'Chris Nash, Director <a href="http://freehtml5.co/" target="_blank">FREEHTML5.co</a> <span class="subtext">Creative Director</span>'
-      img = "person3.jpg"
+    [[params.speakers.item]]
+      name = "Katrina Owen"
+      position = "Invited"
+      description = "Katrina is an ecosystem engineer at GitHub. She accidentally became a developer while pursuing a degree in molecular biology. When programming, her focus is on automation, workflow optimization, and refactoring. She works primarily in Go and Ruby, contributes to several open source projects, and is the creator of exercism.io, a platform for code practice and programming mentorship."
+      img = "katrinaowen.jpg"
       alt = "Person3"
+      social = [
+        ["icon-twitter", "#"],
+        ["icon-facebook", "#"],
+        ["icon-dribbble", "#"]
+      ]    
     
   # venue section
   [params.venue]
