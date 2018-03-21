@@ -1174,6 +1174,7 @@ h6 {
   color: #b3b3b3;
   display: block;
   margin-bottom: 20px;
+  font-size: .90em;
 }
 
 .form-control {
@@ -1312,7 +1313,7 @@ h6 {
 
 .section-heading h2 {
   margin: 0 0 30px 0;
-  font-size: 50px;
+  font-size: 30px;
   font-weight: 300;
   color: #444;
   text-transform: uppercase;
@@ -1710,15 +1711,17 @@ h6 {
 
 .comment {
 	font-size: .80em;
-	/* background-color: #f0f0f0; */
-	margin: 10px;
+  margin: 10px;
+  
+  
 }
 a.morelink {
 	text-decoration:none;
 	outline: none;
 }
 .morecontent span {
-	display: none;
+  display: none;
+  height: 400px;
 
 }
 
