@@ -124,9 +124,9 @@ theme = ""
       alt = "Person3"
 
     [[params.speakers.item2]]
-      name = "Ellisa Lim"
+      name = "Elissa Lim"
       position = "Project-driven journey to learning Go "
-      description = "Ellisa is a business analytics fresh graduate from NUS. Prior to joining SP Group as a software engineer doing frontend development and a blockchain project, she has had logistics project management and business analytics internships at Apple and Singtel respectively."
+      description = "Elissa is a business analytics fresh graduate from NUS. Prior to joining SP Group as a software engineer doing frontend development and a blockchain project, she has had logistics project  management and business analytics internships at Apple and Singtel respectively."
       img = "EllisaLim.jpg"
       alt = "Person3"
 
