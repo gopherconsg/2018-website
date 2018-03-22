@@ -1135,7 +1135,7 @@ h6 {
 
 .fh5co-person {
   border: 2px solid #f2f2f2;
-  padding: 80px 30px 30px 30px;
+  padding: 80px 10px 10px 10px;
   float: left;
   width: 100%;
   position: relative;
@@ -1725,5 +1725,7 @@ a.morelink {
 
 }
 
-
+.cardheading{
+  padding-top: 30px;
+}
 /*# sourceMappingURL=style.css.map */
