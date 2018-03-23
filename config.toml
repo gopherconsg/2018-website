@@ -120,14 +120,14 @@ theme = ""
       name = "Hana Kim"
       position = "Understanding Running Go Programs"
       description = "Hana is a Go team member in Google. She worked on various Google infrastructure monitoring and tracing projects. Now she works on developing tools for monitoring and debugging Go programs. She is also one of the main contributors to the Go Mobile project."
-      img = "hannakim.jpg"
+      img = "hanakim.jpg"
       alt = "Person3"
 
     [[params.speakers.item2]]
       name = "Elissa Lim"
       position = "Project-driven journey to learning Go "
       description = "Elissa is a business analytics fresh graduate from NUS. Prior to joining SP Group as a software engineer doing frontend development and a blockchain project, she has had logistics project  management and business analytics internships at Apple and Singtel respectively."
-      img = "EllisaLim.jpg"
+      img = "elissalim.jpg"
       alt = "Person3"
 
     [[params.speakers.item2]]
