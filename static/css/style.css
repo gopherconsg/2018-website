@@ -1139,6 +1139,7 @@ h6 {
   float: left;
   width: 100%;
   position: relative;
+  min-height: 300px;
 }
 
 @media screen and (max-width: 992px) {
