@@ -459,7 +459,6 @@
 	};
 
 	var pastvideoAnimate = function() {
-		console.log('animation on this item')
 		var about = $('#fh5co-pastvideos');
 		if ( about.length > 0 ) {	
 			about.waypoint( function( direction ) {
@@ -485,6 +484,36 @@
 
 		}
 	};
+
+	var speakerAnimate = function() {
+
+		var about = $('#fh5co-speakers');
+		console.log(about);
+		if ( about.length > 0 ) {	
+			about.waypoint( function( direction ) {
+										
+				if( direction === 'down' && !$(this.element).hasClass('animated') ) {
+					setTimeout(function() {
+						about.find('.to-animate').each(function( k ) {
+							var el = $(this);
+							
+							setTimeout ( function () {
+								el.addClass('fadeInUp animated');
+							},  k * 200, 'easeInOutExpo' );
+							
+						});
+					}, 200);
+
+					
+
+					$(this.element).addClass('animated');
+						
+				}
+			} , { offset: '80%' } );
+
+		}
+	};
+
 
 
 	
@@ -521,8 +550,14 @@
 		countersAnimate();
 		contactAnimate();
 		pastvideoAnimate();
+		speakerAnimate();
+
+
+		
 	
 	});
 
+
+	
 
 }());

@@ -1,34 +1,39 @@
-	<section id="fh5co-services" data-section="speakers">
+	<section id="fh5co-speakers" data-section="speakers">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12 section-heading text-center">
 					<h2 class="to-animate">{{ with .Site.Params.speakers.title }}{{ . | markdownify }}{{ end }}</h2>
-					<div class="row">
-						<div class="col-md-8 col-md-offset-2 subtext to-animate text-left">
-						<p>We welcome speakers from varying backgrounds. You do not have to be an experienced speaker or an experienced programmer to be considered for speaking at GopherCon Singapore. We aim to ensure that the conference is welcoming and relevant to both beginner and experienced programmers.</p>
-						<p>You may submit proposals for any of these talks:</p>
-						<p><ul><li>Main conference (duration: 20 mins)</li>
-						<li>Lightning talks (duration: 5–10 mins)</li></ul></p>
-						<p>The choice of topic is yours. Go is so ubiquitous that people are using it in back-end services, distributed systems, databases, mobile, embedded systems, etc. We would also love to hear about your best practices, cautionary tales, future visions and hard-won lessons.</p>
-						<p>The submission process is anonymized. We take into account quality, relevance, novelty, and practical impact. Final selection is done by the organising committee.</p>
-						</div>
-					</div>
 				</div>
 			</div>
-			<div class="row">
-			{{ range .Site.Params.speakers.item }}
-				<div class="col-md-4">
-					<div class="box-testimony">
-						<blockquote class="to-animate-2">
-							<p>{{ .quote | markdownify}}</p>
-						</blockquote>
-						<div class="author to-animate">
-							<figure><img src="images/{{ .img }}" alt="{{ .alt }}"></figure>
-							<p>{{ .person | markdownify }}</p>
+				<div class="row">
+				{{ range .Site.Params.speakers.item1 }}
+					<div class="col-md-4 col-lg-4 ">
+						<div class="fh5co-person text-center to-animate">
+							<figure><img src="images/speakers/{{ .img }}" alt="{{ .alt }}"></figure>
+							<h3>{{ .name | markdownify }}</h3>
+							<span class="fh5co-position">{{ .position | markdownify }}</span>
+							<p class="comment more">{{ .description | markdownify }}</p>
+							</ul>
 						</div>
 					</div>
+				{{ end }}
 				</div>
-			{{ end }}
+				<div class="row cardheading">
+					{{ range .Site.Params.speakers.item2 }}
+						<div class="col-md-4 col-lg-4 cardheading">
+							<div class="fh5co-person text-center to-animate">
+								<figure><img src="images/speakers/{{ .img }}" alt="{{ .alt }}"></figure>
+								<h3>{{ .name | markdownify }}</h3>
+								<span class="fh5co-position">{{ .position | markdownify }}</span>
+								<p class="comment more">{{ .description | markdownify }}</p>
+								</ul>
+							</div>
+						</div>
+					{{ end }}
+					</div>
+			<div class="col-md-12 section-heading text-center">
+				<h3 class="to-animate">... and more to come</h3>
 			</div>
 		</div>
 	</section>
+	
