@@ -152,6 +152,20 @@ theme = ""
       alt = "Katrina Owen"
 
     [[params.speakers.item3]]
+      name = "Yeo Kheng Meng"
+      position = "Reflections on Trusting Trust for Go"
+      description = "Kheng Meng is a software engineer at SP Digital IoT team. He is also an avid hardware hacker and volunteers for Repair Kopitiam, a community repair meetup group in his free time, helping to repair electrical appliances to reduce eWaste disposal. "
+      img = "khengmeng.jpg"
+      alt = "Kheng Meng"
+    
+    [[params.speakers.item3]]
+      name = "Steve Yegge"
+      position = "Go at Scale"
+      description = "Steve Yegge is Head of Engineering for Ads and Data Insights at Grab.  He has nearly 30 years of industry experience, including a combined 19 years at Amazon and Google.  Steve’s background encompasses embedded systems, e-commerce systems, SOA, developer tools, compiler design, game programming, ad systems, data engineering, real-time serving systems, web frameworks, mobile programming and more.  Steve holds a Bachelor of Science in Computer Science from the Paul G. Allen School of Computer Science & Engineering at the University of Washington.  He enjoys guitar, piano, biking, snowboarding, and the occasional blog rant."
+      img = "steveyegge.jpg"
+      alt = "Steve Yegge"
+
+    [[params.speakers.item4]]
       name = "Veronica Lopez"
       position = "Testing and Automation in the era of Kubernetes"
       description = "Verónica López is a Mexican computer scientist who currently finds joy building distributed systems with Go (@CoreOS) and Elixir, and trying to make physics and computer science converge."
