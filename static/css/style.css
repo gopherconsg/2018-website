@@ -6,7 +6,6 @@
   font-style: normal;
 }
 
-
 /* =======================================================
 *
 * 	Template Style 
@@ -706,45 +705,47 @@ h6 {
   transform: scale(1.1);
 }
 
-#fh5co-services,
+#fh5co-venue,
 #fh5co-testimonials,
 #fh5co-counters,
 #fh5co-pastvideos,
 #fh5co-contact,
 #fh5co-about,
 #fh5co-speakers,
+#fh5co-conduct,
 #fh5co-ticket {
   padding: 4em 0;
 }
 
 @media screen and (max-width: 768px) {
-  #fh5co-services,
+  #fh5co-venue,
   #fh5co-testimonials,
   #fh5co-counters,
   #fh5co-pastvideos,
   #fh5co-contact,
   #fh5co-about,
   #fh5co-speakers,
+  #fh5co-conduct,
   #fh5co-ticket {
     padding: 2em 0;
   }
 }
 
-#fh5co-services,
+#fh5co-venue,
 #fh5co-pastvideos,
 #fh5co-counters {
   padding: 7em 0;
 }
 
 @media screen and (max-width: 768px) {
-  #fh5co-services,
+  #fh5co-venue,
   #fh5co-pastvideos,
   #fh5co-counters {
     padding: 4em 0;
   }
 }
 
-#fh5co-services {
+#fh5co-venue {
   background-color: #52d3aa;
   /* IE9, iOS 3.2+ */
   background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHZpZXdCb3g9IjAgMCAxIDEiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjxsaW5lYXJHcmFkaWVudCBpZD0idnNnZyIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiIHgxPSIwJSIgeTE9IjAlIiB4Mj0iMTAwJSIgeTI9IjEwMCUiPjxzdG9wIHN0b3AtY29sb3I9IiMzZjk1ZWEiIHN0b3Atb3BhY2l0eT0iMSIgb2Zmc2V0PSIwIi8+PHN0b3Agc3RvcC1jb2xvcj0iIzUyZDNhYSIgc3RvcC1vcGFjaXR5PSIxIiBvZmZzZXQ9IjEiLz48L2xpbmVhckdyYWRpZW50PjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIGZpbGw9InVybCgjdnNnZykiIC8+PC9zdmc+);
@@ -759,8 +760,8 @@ h6 {
   color: rgba(255, 255, 255, 0.7);
 }
 
-#fh5co-services:before,
-#fh5co-services:after {
+#fh5co-venue:before,
+#fh5co-venue:after {
   position: absolute;
   transform: rotate(-1.7deg);
   -ms-transform: rotate(-1.7deg);
@@ -776,26 +777,36 @@ h6 {
   width: 101%;
 }
 
-#fh5co-services:before {
+#fh5co-venue:before {
   top: 0;
   margin-top: -35px;
 }
 
-#fh5co-services:after {
+#fh5co-venue:after {
   bottom: 0;
   margin-bottom: -35px;
 }
 
-#fh5co-services .fh5co-service {
+#fh5co-venue .fh5co-service {
   padding-right: 30px;
 }
 
-#fh5co-services h3 {
-  font-size: 24px;
+#fh5co-venue h3 {
+  font-size: 36px;
+  font-weight: 400;
   color: #fff;
+  margin-bottom: 0px;
+  margin-top:-20px;
 }
 
-#fh5co-services .icon {
+#fh5co-venue .fh5co-position{
+    color: #fff;
+    display: block;
+    margin-bottom: 20px;
+    font-size: .90em;
+}
+
+#fh5co-venue .icon {
   font-size: 70px;
   margin-bottom: 30px;
   display: -moz-inline-stack;
@@ -804,15 +815,15 @@ h6 {
   *display: inline;
 }
 
-#fh5co-services .icon:before {
+#fh5co-venue .icon:before {
   color: #fff;
 }
 
-#fh5co-services .section-heading h2 {
+#fh5co-venue .section-heading h2 {
   color: #fff;
 }
 
-#fh5co-services .section-heading h2.left-border:after {
+#fh5co-venue .section-heading h2.left-border:after {
   background: rgba(255, 255, 255, 0.3);
 }
 
@@ -925,8 +936,6 @@ h6 {
   font-weight: 400;
 }
 
-
-
 #fh5co-testimonials {
   background-color: #52d3aa;
   /* IE9, iOS 3.2+ */
@@ -998,7 +1007,6 @@ h6 {
 #testimonials-services .section-heading h2.left-border:after {
   background: rgba(255, 255, 255, 0.3);
 }
-
 
 #fh5co-pastvideos {
   overflow: hidden;
@@ -1206,7 +1214,6 @@ h6 {
   outline: none;
 }
 
- 
 #fh5co-contact {
   padding-bottom: 0;
 }
@@ -1231,7 +1238,7 @@ h6 {
 }
 
 #fh5co-ticket {
-/*  background-color: #52d3aa;
+  background-color: #52d3aa;
   background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHZpZXdCb3g9IjAgMCAxIDEiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjxsaW5lYXJHcmFkaWVudCBpZD0idnNnZyIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiIHgxPSIwJSIgeTE9IjAlIiB4Mj0iMTAwJSIgeTI9IjEwMCUiPjxzdG9wIHN0b3AtY29sb3I9IiMzZjk1ZWEiIHN0b3Atb3BhY2l0eT0iMSIgb2Zmc2V0PSIwIi8+PHN0b3Agc3RvcC1jb2xvcj0iIzUyZDNhYSIgc3RvcC1vcGFjaXR5PSIxIiBvZmZzZXQ9IjEiLz48L2xpbmVhckdyYWRpZW50PjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIGZpbGw9InVybCgjdnNnZykiIC8+PC9zdmc+);
   background-image: -webkit-gradient(linear, 0% 0%, 100% 100%, color-stop(0, #3f95ea), color-stop(1, #52d3aa));
   background-image: -webkit-repeating-linear-gradient(top left, #3f95ea 0%, #52d3aa 100%);
@@ -1240,7 +1247,7 @@ h6 {
   overflow: hidden;
   position: relative;
   color: rgba(255, 255, 255, 0.7);
-  */
+  
 }
 
 #fh5co-ticket services:before,
@@ -1261,7 +1268,7 @@ h6 {
 }
 
 #fh5co-ticket .section-heading h2 {
- /* color: #fff; */
+  color: #fff; 
 }
 
 #fh5co-ticket services:before {
@@ -1280,7 +1287,7 @@ h6 {
 
 #fh5co-ticket services h3 {
   font-size: 24px;
-  /*color: #fff;*/
+  color: #fff;
 }
 
 #fh5co-ticket services .icon {
@@ -1301,6 +1308,69 @@ h6 {
 }
 
 #fh5co-ticket services .section-heading h2.left-border:after {
+  background: rgba(255, 255, 255, 0.3);
+}
+
+#fh5co-conduct {}
+
+#fh5co-conduct services:before,
+#fh5co-conduct services:after {
+  position: absolute;
+  transform: rotate(-1.7deg);
+  -ms-transform: rotate(-1.7deg);
+  -webkit-transform: rotate(-1.7deg);
+  -o-transform: rotate(-1.7deg);
+  -moz-transform: rotate(-1.7deg);
+  background-color: #fff;
+  content: "";
+  z-index: 3;
+  display: inline-block;
+  height: 70px;
+  padding: 0;
+  width: 101%;
+}
+
+#fh5co-conduct.section-heading h2 {
+  /* color: #fff; */
+}
+
+#fh5co-conduct services:before {
+  top: 0;
+  margin-top: -35px;
+}
+
+#fh5co-conduct services:after {
+  bottom: 0;
+  margin-bottom: -35px;
+}
+
+#fh5co-conduct services .fh5co-service {
+  padding-right: 30px;
+}
+
+#fh5co-conduct services h3 {
+  font-size: 24px;
+  /*color: #fff;*/
+}
+
+#fh5co-conduct services .icon {
+  font-size: 70px;
+  margin-bottom: 30px;
+  display: -moz-inline-stack;
+  display: inline-block;
+  zoom: 1;
+  *display: inline;
+}
+
+#fh5co-conduct services .icon:before {
+  color: #fff;
+}
+
+#fh5co-conduct services .section-heading h2 {
+  color: #fff;
+}
+
+#fh5co-conduct services .section-heading h2.left-border:after {
   background: rgba(255, 255, 255, 0.3);
 }
 
@@ -1708,25 +1778,23 @@ h6 {
   animation-fill-mode: both;
 }
 
-
-
 .comment {
-	font-size: .80em;
+  font-size: .80em;
   margin: 10px;
-  
-  
 }
+
 a.morelink {
-	text-decoration:none;
-	outline: none;
+  text-decoration: none;
+  outline: none;
 }
+
 .morecontent span {
   display: none;
   height: 400px;
-
 }
 
-.cardheading{
+.cardheading {
   padding-top: 30px;
 }
+
 /*# sourceMappingURL=style.css.map */

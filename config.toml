@@ -172,17 +172,9 @@ theme = ""
       img = "khengmeng.jpg"
       alt = "Kheng Meng"
 
-    
-
-   
-
-    
-    
-   
-
   # venue section
   [params.venue]
-    enable = false
+    enable = true
     title = "Venue"
     description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
 

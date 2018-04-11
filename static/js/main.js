@@ -234,8 +234,9 @@
 	};
 
 
-	var testimonialAnimate = function() {
-		var testimonial = $('#fh5co-testimonials');
+	var conductAnimate = function() {
+		var testimonial = $('#fh5co-conduct');
+		console.log("*************************************************")
 		if ( testimonial.length > 0 ) {	
 
 			testimonial.waypoint( function( direction ) {
@@ -514,7 +515,34 @@
 		}
 	};
 
+	var commonAnimate = function(cssClass) {
 
+		var about = $(cssClass);
+		console.log(about);
+		if ( about.length > 0 ) {	
+			about.waypoint( function( direction ) {
+										
+				if( direction === 'down' && !$(this.element).hasClass('animated') ) {
+					setTimeout(function() {
+						about.find('.to-animate').each(function( k ) {
+							var el = $(this);
+							
+							setTimeout ( function () {
+								el.addClass('fadeInUp animated');
+							},  k * 200, 'easeInOutExpo' );
+							
+						});
+					}, 200);
+
+					
+
+					$(this.element).addClass('animated');
+						
+				}
+			} , { offset: '80%' } );
+
+		}
+	};
 
 	
 	
@@ -543,7 +571,8 @@
 		homeAnimate();
 		introAnimate();
 		workAnimate();
-		testimonialAnimate();
+		commonAnimate('#fh5co-venue');
+		// testimonialAnimate();
 		servicesAnimate();
 		aboutAnimate();
 		ticketAnimate();
@@ -551,13 +580,6 @@
 		contactAnimate();
 		pastvideoAnimate();
 		speakerAnimate();
-
-
-		
-	
+		conductAnimate();
 	});
-
-
-	
-
 }());
