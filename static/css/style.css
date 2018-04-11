@@ -710,7 +710,7 @@ h6 {
 #fh5co-testimonials,
 #fh5co-counters,
 #fh5co-pastvideos,
-#fh5co-worshop,
+#fh5co-workshop,
 #fh5co-about,
 #fh5co-speakers,
 #fh5co-conduct,
@@ -724,7 +724,7 @@ h6 {
   #fh5co-testimonials,
   #fh5co-counters,
   #fh5co-pastvideos,
-  #fh5co-worshop,
+  #fh5co-workshop,
   #fh5co-about,
   #fh5co-speakers,
   #fh5co-conduct,
@@ -1228,7 +1228,7 @@ h6 {
   background-image: -ms-repeating-linear-gradient(top left, #3f95ea 0%, #52d3aa 100%);
   overflow: hidden;
   position: relative;
-  color: rgba(255, 255, 255, 0.7);
+  color: rgba(255, 255, 255);
 }
 
 #fh5co-workshop:before,
@@ -1263,7 +1263,7 @@ h6 {
 }
 
 #fh5co-workshop h3 {
-  font-size: 36px;
+  font-size: 24px;
   font-weight: 400;
   color: #fff;
   margin-bottom: 0px;
@@ -1335,26 +1335,26 @@ section#fh5co-workshop{
   /* color: #fff;  */
 }
 
-#fh5co-ticket services:before {
+#fh5co-ticket:before {
   top: 0;
   margin-top: -35px;
 }
 
-#fh5co-ticket services:after {
+#fh5co-ticket:after {
   bottom: 0;
   margin-bottom: -35px;
 }
 
-#fh5co-ticket services .fh5co-service {
+#fh5co-ticket .fh5co-service {
   padding-right: 30px;
 }
 
-#fh5co-ticket services h3 {
+#fh5co-ticket h3 {
   font-size: 24px;
   /* color: #fff; */
 }
 
-#fh5co-ticket services .icon {
+#fh5co-ticket .icon {
   font-size: 70px;
   margin-bottom: 30px;
   display: -moz-inline-stack;
@@ -1363,11 +1363,11 @@ section#fh5co-workshop{
   *display: inline;
 }
 
-#fh5co-ticket services .icon:before {
+#fh5co-ticket .icon:before {
   color: #fff;
 }
 
-#fh5co-ticket services .section-heading h2 {
+#fh5co-ticket .section-heading h2 {
   /* color: #fff; */
 }
 
@@ -1395,30 +1395,30 @@ section#fh5co-workshop{
   width: 101%;
 }
 
-#fh5co-sponsors.section-heading h2 {
+#fh5co-sponsors .section-heading h2 {
   /* color: #fff; */
 }
 
-#fh5co-sponsors services:before {
+#fh5co-sponsors:before {
   top: 0;
   margin-top: -35px;
 }
 
-#fh5co-sponsors services:after {
+#fh5co-sponsors:after {
   bottom: 0;
   margin-bottom: -35px;
 }
 
-#fh5co-sponsors services .fh5co-service {
+#fh5co-sponsors .fh5co-service {
   padding-right: 30px;
 }
 
-#fh5co-sponsors services h3 {
+#fh5co-sponsors h3 {
   font-size: 24px;
   /*color: #fff;*/
 }
 
-#fh5co-sponsors services .icon {
+#fh5co-sponsors .icon {
   font-size: 70px;
   margin-bottom: 30px;
   display: -moz-inline-stack;
@@ -1427,15 +1427,15 @@ section#fh5co-workshop{
   *display: inline;
 }
 
-#fh5co-sponsors services .icon:before {
+#fh5co-sponsors .icon:before {
   color: #fff;
 }
 
-#fh5co-sponsors services .section-heading h2 {
+#fh5co-sponsors .section-heading h2 {
   color: #fff;
 }
 
-#fh5co-sponsors services .section-heading h2.left-border:after {
+#fh5co-sponsors .section-heading h2.left-border:after {
   background: rgba(255, 255, 255, 0.3);
 }
 
@@ -1525,8 +1525,8 @@ section#fh5co-workshop{
 .section-heading {
   float: left;
   width: 100%;
-  padding-bottom: 50px;
-  margin-bottom: 50px;
+  /* padding-bottom: 50px;
+  margin-bottom: 50px; */
   clear: both;
 }
 
@@ -1943,6 +1943,10 @@ a.morelink {
 
 .cardheading {
   padding-top: 30px;
+}
+
+.location-map {
+  padding-bottom: 20px;
 }
 
 /*# sourceMappingURL=style.css.map */
