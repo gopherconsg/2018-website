@@ -313,6 +313,12 @@ theme = ""
       title = "Project 6"
       subtitle = "Design"
 
+  #sponsors
+  [params.sponsors]
+    enable = true
+    title = "Sponsors"
+    
+     
   # Footer section
   [params.footer]
     enable = true

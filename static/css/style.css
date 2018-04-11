@@ -499,7 +499,7 @@ h6 {
 }
 
 #fh5co-home .home-padding {
-  height: 230px;
+  height: 130px;
 }
 
 .slant {
@@ -705,11 +705,12 @@ h6 {
   transform: scale(1.1);
 }
 
+#fh5co-sponsors,
 #fh5co-venue,
 #fh5co-testimonials,
 #fh5co-counters,
 #fh5co-pastvideos,
-#fh5co-contact,
+#fh5co-worshop,
 #fh5co-about,
 #fh5co-speakers,
 #fh5co-conduct,
@@ -718,11 +719,12 @@ h6 {
 }
 
 @media screen and (max-width: 768px) {
+  #fh5co-sponsors,
   #fh5co-venue,
   #fh5co-testimonials,
   #fh5co-counters,
   #fh5co-pastvideos,
-  #fh5co-contact,
+  #fh5co-worshop,
   #fh5co-about,
   #fh5co-speakers,
   #fh5co-conduct,
@@ -1214,31 +1216,93 @@ h6 {
   outline: none;
 }
 
-#fh5co-contact {
-  padding-bottom: 0;
-}
-
-#fh5co-contact .fh5co-contact-info {
-  padding: 0;
-  margin: 0 0 1.5em 0;
-}
-
-#fh5co-contact .fh5co-contact-info li {
+#fh5co-workshop {
+  background-color: #52d3aa;
+  /* IE9, iOS 3.2+ */
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHZpZXdCb3g9IjAgMCAxIDEiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjxsaW5lYXJHcmFkaWVudCBpZD0idnNnZyIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiIHgxPSIwJSIgeTE9IjAlIiB4Mj0iMTAwJSIgeTI9IjEwMCUiPjxzdG9wIHN0b3AtY29sb3I9IiMzZjk1ZWEiIHN0b3Atb3BhY2l0eT0iMSIgb2Zmc2V0PSIwIi8+PHN0b3Agc3RvcC1jb2xvcj0iIzUyZDNhYSIgc3RvcC1vcGFjaXR5PSIxIiBvZmZzZXQ9IjEiLz48L2xpbmVhckdyYWRpZW50PjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIGZpbGw9InVybCgjdnNnZykiIC8+PC9zdmc+);
+  background-image: -webkit-gradient(linear, 0% 0%, 100% 100%, color-stop(0, #3f95ea), color-stop(1, #52d3aa));
+  /* Android 2.3 */
+  background-image: -webkit-repeating-linear-gradient(top left, #3f95ea 0%, #52d3aa 100%);
+  /* IE10+ */
+  background-image: repeating-linear-gradient(to bottom right, #3f95ea 0%, #52d3aa 100%);
+  background-image: -ms-repeating-linear-gradient(top left, #3f95ea 0%, #52d3aa 100%);
+  overflow: hidden;
   position: relative;
-  padding: 0;
-  margin: 0 0 1.5em 0;
-  padding-left: 50px;
-  list-style: none;
+  color: rgba(255, 255, 255, 0.7);
 }
 
-#fh5co-contact .fh5co-contact-info li i {
+#fh5co-workshop:before,
+#fh5co-workshop:after {
   position: absolute;
-  top: .2em;
-  left: 0;
+  transform: rotate(-1.7deg);
+  -ms-transform: rotate(-1.7deg);
+  -webkit-transform: rotate(-1.7deg);
+  -o-transform: rotate(-1.7deg);
+  -moz-transform: rotate(-1.7deg);
+  background-color: #fff;
+  content: "";
+  z-index: 3;
+  display: inline-block;
+  height: 70px;
+  padding: 0;
+  width: 101%;
+}
+
+#fh5co-workshop:before {
+  top: 0;
+  margin-top: -35px;
+}
+
+#fh5co-workshop:after {
+  bottom: 0;
+  margin-bottom: -35px;
+}
+
+#fh5co-workshop .fh5co-service {
+  padding-right: 30px;
+}
+
+#fh5co-workshop h3 {
+  font-size: 36px;
+  font-weight: 400;
+  color: #fff;
+  margin-bottom: 0px;
+  margin-top:-20px;
+}
+
+#fh5co-workshop .fh5co-position{
+    color: #fff;
+    display: block;
+    margin-bottom: 20px;
+    font-size: .90em;
+}
+
+#fh5co-workshop .icon {
+  font-size: 70px;
+  margin-bottom: 30px;
+  display: -moz-inline-stack;
+  display: inline-block;
+  zoom: 1;
+  *display: inline;
+}
+
+#fh5co-workshop .icon:before {
+  color: #fff;
+}
+
+#fh5co-workshop .section-heading h2 {
+  color: #fff;
+}
+
+#fh5co-workshop .section-heading h2.left-border:after {
+  background: rgba(255, 255, 255, 0.3);
+}
+section#fh5co-workshop{
+  padding-top: 60px;
 }
 
 #fh5co-ticket {
-  background-color: #52d3aa;
+  /* background-color: #52d3aa;
   background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHZpZXdCb3g9IjAgMCAxIDEiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjxsaW5lYXJHcmFkaWVudCBpZD0idnNnZyIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiIHgxPSIwJSIgeTE9IjAlIiB4Mj0iMTAwJSIgeTI9IjEwMCUiPjxzdG9wIHN0b3AtY29sb3I9IiMzZjk1ZWEiIHN0b3Atb3BhY2l0eT0iMSIgb2Zmc2V0PSIwIi8+PHN0b3Agc3RvcC1jb2xvcj0iIzUyZDNhYSIgc3RvcC1vcGFjaXR5PSIxIiBvZmZzZXQ9IjEiLz48L2xpbmVhckdyYWRpZW50PjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIGZpbGw9InVybCgjdnNnZykiIC8+PC9zdmc+);
   background-image: -webkit-gradient(linear, 0% 0%, 100% 100%, color-stop(0, #3f95ea), color-stop(1, #52d3aa));
   background-image: -webkit-repeating-linear-gradient(top left, #3f95ea 0%, #52d3aa 100%);
@@ -1246,7 +1310,7 @@ h6 {
   background-image: -ms-repeating-linear-gradient(top left, #3f95ea 0%, #52d3aa 100%);
   overflow: hidden;
   position: relative;
-  color: rgba(255, 255, 255, 0.7);
+  color: rgba(255, 255, 255, 0.7); */
   
 }
 
@@ -1268,7 +1332,7 @@ h6 {
 }
 
 #fh5co-ticket .section-heading h2 {
-  color: #fff; 
+  /* color: #fff;  */
 }
 
 #fh5co-ticket services:before {
@@ -1287,7 +1351,7 @@ h6 {
 
 #fh5co-ticket services h3 {
   font-size: 24px;
-  color: #fff;
+  /* color: #fff; */
 }
 
 #fh5co-ticket services .icon {
@@ -1304,17 +1368,18 @@ h6 {
 }
 
 #fh5co-ticket services .section-heading h2 {
-  color: #fff;
+  /* color: #fff; */
 }
 
 #fh5co-ticket services .section-heading h2.left-border:after {
   background: rgba(255, 255, 255, 0.3);
 }
 
-#fh5co-conduct {}
 
-#fh5co-conduct services:before,
-#fh5co-conduct services:after {
+#fh5co-sponsors {}
+
+#fh5co-sponsors services:before,
+#fh5co-sponsors services:after {
   position: absolute;
   transform: rotate(-1.7deg);
   -ms-transform: rotate(-1.7deg);
@@ -1330,30 +1395,30 @@ h6 {
   width: 101%;
 }
 
-#fh5co-conduct.section-heading h2 {
+#fh5co-sponsors.section-heading h2 {
   /* color: #fff; */
 }
 
-#fh5co-conduct services:before {
+#fh5co-sponsors services:before {
   top: 0;
   margin-top: -35px;
 }
 
-#fh5co-conduct services:after {
+#fh5co-sponsors services:after {
   bottom: 0;
   margin-bottom: -35px;
 }
 
-#fh5co-conduct services .fh5co-service {
+#fh5co-sponsors services .fh5co-service {
   padding-right: 30px;
 }
 
-#fh5co-conduct services h3 {
+#fh5co-sponsors services h3 {
   font-size: 24px;
   /*color: #fff;*/
 }
 
-#fh5co-conduct services .icon {
+#fh5co-sponsors services .icon {
   font-size: 70px;
   margin-bottom: 30px;
   display: -moz-inline-stack;
@@ -1362,15 +1427,98 @@ h6 {
   *display: inline;
 }
 
-#fh5co-conduct services .icon:before {
+#fh5co-sponsors services .icon:before {
   color: #fff;
 }
 
-#fh5co-conduct services .section-heading h2 {
+#fh5co-sponsors services .section-heading h2 {
   color: #fff;
 }
 
-#fh5co-conduct services .section-heading h2.left-border:after {
+#fh5co-sponsors services .section-heading h2.left-border:after {
+  background: rgba(255, 255, 255, 0.3);
+}
+
+
+#fh5co-conduct {
+  background-color: #52d3aa;
+  /* IE9, iOS 3.2+ */
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHZpZXdCb3g9IjAgMCAxIDEiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjxsaW5lYXJHcmFkaWVudCBpZD0idnNnZyIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiIHgxPSIwJSIgeTE9IjAlIiB4Mj0iMTAwJSIgeTI9IjEwMCUiPjxzdG9wIHN0b3AtY29sb3I9IiMzZjk1ZWEiIHN0b3Atb3BhY2l0eT0iMSIgb2Zmc2V0PSIwIi8+PHN0b3Agc3RvcC1jb2xvcj0iIzUyZDNhYSIgc3RvcC1vcGFjaXR5PSIxIiBvZmZzZXQ9IjEiLz48L2xpbmVhckdyYWRpZW50PjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIGZpbGw9InVybCgjdnNnZykiIC8+PC9zdmc+);
+  background-image: -webkit-gradient(linear, 0% 0%, 100% 100%, color-stop(0, #3f95ea), color-stop(1, #52d3aa));
+  /* Android 2.3 */
+  background-image: -webkit-repeating-linear-gradient(top left, #3f95ea 0%, #52d3aa 100%);
+  /* IE10+ */
+  background-image: repeating-linear-gradient(to bottom right, #3f95ea 0%, #52d3aa 100%);
+  background-image: -ms-repeating-linear-gradient(top left, #3f95ea 0%, #52d3aa 100%);
+  overflow: hidden;
+  position: relative;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+#fh5co-conduct:before,
+#fh5co-conduct:after {
+  position: absolute;
+  transform: rotate(-1.7deg);
+  -ms-transform: rotate(-1.7deg);
+  -webkit-transform: rotate(-1.7deg);
+  -o-transform: rotate(-1.7deg);
+  -moz-transform: rotate(-1.7deg);
+  background-color: #fff;
+  content: "";
+  z-index: 3;
+  display: inline-block;
+  height: 70px;
+  padding: 0;
+  width: 101%;
+}
+
+#fh5co-conduct:before {
+  top: 0;
+  margin-top: -35px;
+}
+
+#fh5co-conduct:after {
+  bottom: 0;
+  margin-bottom: -35px;
+}
+
+#fh5co-conduct .fh5co-service {
+  padding-right: 30px;
+}
+
+#fh5co-conduct h3 {
+  font-size: 36px;
+  font-weight: 400;
+  color: #fff;
+  margin-bottom: 0px;
+  margin-top:-20px;
+}
+
+#fh5co-conduct .fh5co-position{
+    color: #fff;
+    display: block;
+    margin-bottom: 20px;
+    font-size: .90em;
+}
+
+#fh5co-conduct .icon {
+  font-size: 70px;
+  margin-bottom: 30px;
+  display: -moz-inline-stack;
+  display: inline-block;
+  zoom: 1;
+  *display: inline;
+}
+
+#fh5co-conduct .icon:before {
+  color: #fff;
+}
+
+#fh5co-conduct .section-heading h2 {
+  color: #fff;
+}
+
+#fh5co-conduct .section-heading h2.left-border:after {
   background: rgba(255, 255, 255, 0.3);
 }
 

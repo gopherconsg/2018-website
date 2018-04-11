@@ -236,7 +236,6 @@
 
 	var conductAnimate = function() {
 		var testimonial = $('#fh5co-conduct');
-		console.log("*************************************************")
 		if ( testimonial.length > 0 ) {	
 
 			testimonial.waypoint( function( direction ) {
@@ -489,7 +488,6 @@
 	var speakerAnimate = function() {
 
 		var about = $('#fh5co-speakers');
-		console.log(about);
 		if ( about.length > 0 ) {	
 			about.waypoint( function( direction ) {
 										
@@ -516,7 +514,6 @@
 	};
 
 	var commonAnimate = function(cssClass) {
-
 		var about = $(cssClass);
 		console.log(about);
 		if ( about.length > 0 ) {	
@@ -544,12 +541,6 @@
 		}
 	};
 
-	
-	
-
-
-	
-	
 
 	// Document on load.
 	$(function(){
@@ -572,12 +563,14 @@
 		introAnimate();
 		workAnimate();
 		commonAnimate('#fh5co-venue');
+		commonAnimate('#fh5co-sponsors');
+		commonAnimate('#fh5co-workshop');
 		// testimonialAnimate();
 		servicesAnimate();
 		aboutAnimate();
 		ticketAnimate();
 		countersAnimate();
-		contactAnimate();
+		// contactAnimate();
 		pastvideoAnimate();
 		speakerAnimate();
 		conductAnimate();
