@@ -54,7 +54,8 @@ theme = ""
     form = true
     title = "Workshops"
     date = "May 03, 2018"
-    venue = "To be confirmed."
+    venue = "Lifelong Learning Institute"
+    address = "11 Eunos Rd 8, Singapore 408601"
     profile = "bill.jpg"
     instructor="William Kennedy"
     instructorbio="William Kennedy is a managing partner at Ardan Studio in Miami, Florida, a mobile, web, and systems development company. He is also a co-author of the book Go in Action, the author of the blog GoingGo.Net, and a founding member of GoBridge which is working to increase Go adoption through diversity."
@@ -117,18 +118,18 @@ theme = ""
       alt = "Ajey Gore"
 
     [[params.speakers.item1]]
-      name = "Beverly Dolor"
-      position = "Go and the future of offices"
-      description = "At the heart of Beverly's 17-year engineering career, is the belief that building great software means creating products and tools that help people live with more ease, efficiency, and enjoyment. This passion has given her the opportunity to work on a variety of online technologies at Chikka, Yahoo!, travelmob, where she's worked with and learnt from the best. She led Spacemob's Engineering team that built the company's systems from the ground up.  Now, she is leading WeWork Singapore Engineering team where she continues her legacy through creating relevant solutions that are driven by personal passion to care."
-      img = "beverlydolor.jpg"
-      alt = "Beverly Dolor" 
-
-    [[params.speakers.item2]]
       name = "Bill Kennedy"
       position = "Optimize For Correctness"
       description = "William Kennedy is a managing partner at Ardan Studio in Miami, Florida, a mobile, web, and systems development company. He is also a co-author of the book Go in Action, the author of the blog GoingGo.Net, and a founding member of GoBridge which is working to increase Go adoption through diversity."
       img = "williamkennedy.jpg"
       alt = "Bill Kennedy"
+
+    [[params.speakers.item2]]
+      name = "Beverly Dolor"
+      position = "Go and the future of offices"
+      description = "At the heart of Beverly's 17-year engineering career, is the belief that building great software means creating products and tools that help people live with more ease, efficiency, and enjoyment. This passion has given her the opportunity to work on a variety of online technologies at Chikka, Yahoo!, travelmob, where she's worked with and learnt from the best. She led Spacemob's Engineering team that built the company's systems from the ground up.  Now, she is leading WeWork Singapore Engineering team where she continues her legacy through creating relevant solutions that are driven by personal passion to care."
+      img = "beverlydolor.jpg"
+      alt = "Beverly Dolor" 
 
     [[params.speakers.item2]]
       name = "Elissa Lim"
@@ -152,13 +153,27 @@ theme = ""
       alt = "Katrina Owen"
 
     [[params.speakers.item3]]
-      name = "Steve Yegge"
-      position = "Go at Scale"
-      description = "Steve Yegge is Head of Engineering for Ads and Data Insights at Grab.  He has nearly 30 years of industry experience, including a combined 19 years at Amazon and Google.  Steve’s background encompasses embedded systems, e-commerce systems, SOA, developer tools, compiler design, game programming, ad systems, data engineering, real-time serving systems, web frameworks, mobile programming and more.  Steve holds a Bachelor of Science in Computer Science from the Paul G. Allen School of Computer Science & Engineering at the University of Washington.  He enjoys guitar, piano, biking, snowboarding, and the occasional blog rant."
-      img = "steveyegge.jpg"
-      alt = "Steve Yegge"
+      name = "Matthew Campbell"
+      position = "Build your own distributed database"
+      description = "Matthew Campbell is the founder & CEO of a Loom Network (TechStars Winter ‘18) a Blockchain company focused on scaling Ethereum. Most famously known for CryptoZombies. Matthew has been building tools for developers around the blockchain in Go. Matthew has also worked for large Technical firms like Digital Ocean, Bloomberg, Thomson Retuers and has been a software developer for last 15 years. "
+      img = "matthewcampbell.jpg"
+      alt = "Matthew Campbell"
 
     [[params.speakers.item3]]
+      name = "Rajeev N Bharshetty"
+      position = "Resiliency in Distributed Systems"
+      description = "Rajeev is working as a Product Engineer helping build Resilient Distributed systems at Scale. His primary focus and interest areas are Distributed Systems, Security and Data. He is a Long distance Runner and Cyclist, Amateur Musician, and an Avid Trekker.  "
+      img = "rajeevbharshetty.jpg"
+      alt = "Rajeev N Bharshetty"
+
+    [[params.speakers.item4]]
+      name = "Suthen Thomas"
+      position = "-"
+      description = " Suthen is the Head of Engineering for Grab's Singapore R&D Centre. He has been with Grab for over five years - from the time it was called MyTeksi and based in a store room in Petaling Jaya, Malaysia - and played a number roles including its first Technical Lead, Head of Business Operations, and Chief of Staff. "
+      img = "suthenthomas.png"
+      alt = "Suthen Thomas"
+
+    [[params.speakers.item4]]
       name = "Veronica Lopez"
       position = "Testing and Automation in the era of Kubernetes"
       description = "Verónica López is a Mexican computer scientist who currently finds joy building distributed systems with Go (@CoreOS) and Elixir, and trying to make physics and computer science converge."
@@ -172,17 +187,9 @@ theme = ""
       img = "khengmeng.jpg"
       alt = "Kheng Meng"
 
-    
-
-   
-
-    
-    
-   
-
   # venue section
   [params.venue]
-    enable = false
+    enable = true
     title = "Venue"
     description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
 
@@ -320,6 +327,12 @@ theme = ""
       alt = "Image6"
       title = "Project 6"
       subtitle = "Design"
+
+  #sponsors
+  [params.sponsors]
+    enable = true
+    title = "Sponsors"
+
 
   # Footer section
   [params.footer]

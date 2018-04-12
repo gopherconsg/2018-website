@@ -40,16 +40,16 @@
                             <span>{{ with .Site.Params.navigation.schedule}}{{ . | markdownify }}{{ end }}</span>
                         </a>
                     </li>
-                    {{ end }} {{ if .Site.Params.speakers.enable }}
-                    <li>
-                        <a href="#" data-nav-section="speakers">
-                            <span>{{ with .Site.Params.navigation.speakers }}{{ . | markdownify }}{{ end }}</span>
-                        </a>
-                    </li>
                     {{ end }} {{ if .Site.Params.venue.enable }}
                     <li>
                         <a href="#" data-nav-section="venue">
                             <span>{{ with .Site.Params.navigation.venue}}{{ . | markdownify }}{{ end }}</span>
+                        </a>
+                    </li>
+                    {{ end }} {{ if .Site.Params.speakers.enable }}
+                    <li>
+                        <a href="#" data-nav-section="speakers">
+                            <span>{{ with .Site.Params.navigation.speakers }}{{ . | markdownify }}{{ end }}</span>
                         </a>
                     </li>
                     {{ end }} {{ if .Site.Params.team.enable }}

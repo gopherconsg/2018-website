@@ -1,4 +1,4 @@
-<section id="fh5co-contact" data-section="workshop">
+<section id="fh5co-workshop" data-section="workshop">
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12 section-heading text-center">
@@ -43,12 +43,15 @@
 									<li class="timeline-item">
 									</li>
 								</ul>
+								<br/>
 								<div class="col-md-12 section-heading text-left">
-									<p><h3>Venue</h3></p>
-									<p>{{ with .Site.Params.workshop.venue}}{{ . | markdownify }}{{ end }}</p>
-									<!--<div class="location-map">
-										<iframe src="{{ .Site.Params.workshop.mapiframeurl }}" width="100%" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
-									</div>//-->
+									<h3>Venue</h3>
+										<span>{{ with .Site.Params.workshop.venue}}{{ . | markdownify }}{{ end }}</span>
+										<br/>
+										<span>{{ with .Site.Params.workshop.address}}{{ . | markdownify }}{{ end }}</span>
+									<div class="location-map">
+										<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.7599122254064!2d103.89012521511604!3d1.3197669620381096!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da18188d9cbf0f%3A0x366088767c724265!2sLifelong+Learning+Institute!5e0!3m2!1sen!2ssg!4v1523438861392" width="100%" height="250" frameborder="0" style="border:0" allowfullscreen></iframe>
+									</div>
 									<h3>About the instructor: </h3>
 									<div class="speaker-block">
 										<div class="speaker-img">
@@ -74,4 +77,5 @@
 			</div>
 		</div>
 	</div>
+	<div class="slant"> </div>
 </section>
