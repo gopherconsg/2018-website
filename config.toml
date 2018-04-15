@@ -118,6 +118,13 @@ theme = ""
       alt = "Ajey Gore"
 
     [[params.speakers.item1]]
+      name = "Stephen Kruger"
+      position = "Keynote"
+      description = "Head of GrabPlatform Stephen joined Grab in June 2017 with 20 years of experience, holding titles of Master Inventor at IBM, and as chief architect for multiple Saas offerings. Currently charged with bringing to fruition the vision of a Grab platform ecosystem to support our customers and partners across the SEA region. "
+      img = "stephenkruger.jpg"
+      alt = "Stephen Kruger"
+
+    [[params.speakers.item2]]
       name = "Bill Kennedy"
       position = "Optimize For Correctness"
       description = "William Kennedy is a managing partner at Ardan Studio in Miami, Florida, a mobile, web, and systems development company. He is also a co-author of the book Go in Action, the author of the blog GoingGo.Net, and a founding member of GoBridge which is working to increase Go adoption through diversity."
@@ -138,7 +145,7 @@ theme = ""
       img = "elissalim.jpg"
       alt = "Elissa Lim"
 
-    [[params.speakers.item2]]
+    [[params.speakers.item3]]
       name = "Hana Kim"
       position = "Understanding Running Go Programs"
       description = "Hana is a Go team member in Google. She worked on various Google infrastructure monitoring and tracing projects. Now she works on developing tools for monitoring and debugging Go programs. She is also one of the main contributors to the Go Mobile project."
@@ -159,7 +166,7 @@ theme = ""
       img = "matthewcampbell.jpg"
       alt = "Matthew Campbell"
 
-    [[params.speakers.item3]]
+    [[params.speakers.item4]]
       name = "Rajeev N Bharshetty"
       position = "Resiliency in Distributed Systems"
       description = "Rajeev is working as a Product Engineer helping build Resilient Distributed systems at Scale. His primary focus and interest areas are Distributed Systems, Security and Data. He is a Long distance Runner and Cyclist, Amateur Musician, and an Avid Trekker.  "
@@ -180,7 +187,7 @@ theme = ""
       img = "veronicalopez.png"
       alt = "Veronica Lopez"
 
-    [[params.speakers.item4]]
+    [[params.speakers.item5]]
       name = "Yeo Kheng Meng"
       position = "Reflections on Trusting Trust for Go"
       description = "Kheng Meng is a software engineer at SP Digital IoT team. He is also an avid hardware hacker and volunteers for Repair Kopitiam, a community repair meetup group in his free time, helping to repair electrical appliances to reduce eWaste disposal. "
