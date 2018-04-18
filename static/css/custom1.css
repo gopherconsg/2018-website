@@ -16,7 +16,10 @@
     }
 } */
 
-
+.navPadding {
+  padding: 10px 10px !important;
+}
+ 
 .social-links p {
     display: inline;
   }
@@ -190,4 +193,9 @@ figure.twitter-logo img {
   color: #0000008f;
   font-size: 12px;
   text-align: left;
+}
+
+/* schedule */
+.courseDesciption{
+  font-size: .80em;
 }

@@ -63,7 +63,7 @@ theme = ""
     ultimatedescription="This is for any intermediate-level developer who has some experience with other programming languages and wants to learn Go. This class will provide a jump start in learning Go and provide a more thorough understanding of the language and its internals."
     mapiframeurl = "https://www.google.com/maps/embed/v1/place?q=singapore&key=AIzaSyAV_g95uyyqNxmyTKx1IkdPXtKCnDAElc0"
 
-    [[params.workshop.outline.fundamentals]]
+    
       item="Philosophy of Go"
     [[params.workshop.outline.fundamentals]]
       item="Language Syntax"
@@ -91,12 +91,161 @@ theme = ""
     [[params.workshop.outline.ultimate]]
       item="Concurrency"
 
+
   # Work section
   [params.schedule]
     enable = true
     title = "Schedule"
-    description = "Coming Soon..."
-    footertext = '** Demo images from <a href="http://plmd.me/" target="_blank">plmd.me</a>'
+    [[params.schedule.items]]
+      time="08:00"
+      topic="Conference door open & registration"
+      description=""
+      hasSpeaker=false
+      speaker=""
+      speakerImage=""
+    [[params.schedule.items]]
+      time="09:00"
+      topic="Welcome address"
+      description=""
+      hasSpeaker=true
+      speaker="Sau Sheong"
+      speakerImage="changsausheong.jpg"
+    [[params.schedule.items]]
+      time="09:10"
+      topic="Opening keynote: Go with Versions"
+      description="It's time to add versioning to the Go toolchain, the Go ecosystem, and Go workflows. Go 1.11 will add opt-in support for package versions. This talk will explain the background, motivation, and rationale for the new version support and help you understand how to use it effectively."
+      hasSpeaker=true
+      speaker="Russ Cox"
+      speakerImage="RussCox.jpg"
+    [[params.schedule.items]]
+      time="09:50"
+      topic="Project-driven journey to learning Go"
+      description="It’s inevitable to feel overwhelmed when learning any programming language, especially for those who come from a non-software development background. It takes time and patience to get used to syntax, let alone understanding, exploring and implementing the underlying concepts. How will you strategise and optimise learning within a short period? What will you prioritise learning first? Being new to Go, Elissa shares her learning journey through a data analysis project."
+      hasSpeaker=true
+      speaker="Elissa Lim"
+      speakerImage="elissalim.jpg"
+    [[params.schedule.items]]
+      time="10:15"
+      topic="Teabreak"
+      description=""
+      hasSpeaker=false
+      speaker=""
+      speakerImage=""
+     [[params.schedule.items]]
+      time="10:45"
+      topic="Resiliency in Distributed Systems"
+      description="Running distributed systems with high uptime is hard. Faults always occur in a complex distributed environment with too many moving parts. Systems need to be designed from the start to be resilient against some of the common faults in live production systems at scale such as sudden surge in traffic, bad or failed dependencies, network outages, hosts going down etc. To safe guard against these failures and potential business loss, we discuss some of the basic patterns to be followed in designing resilient distributed systems at scale such as Circuit Breakers, BulkHeads, Fallbacks, Redundancies, Metrics and Monitoring. This talk is for everyone who is interested in building highly reliable distributed systems in Go and also hate answering pagers at 3 am in the morning."
+      hasSpeaker=true
+      speaker="Rajeev N Bharshetty"
+      speakerImage="rajeevbharshetty.jpg"
+     [[params.schedule.items]]
+      time="11:10"
+      topic="Understanding Running Go Programs"
+      description="Profiling and tracing is an important part of program development and management. The Go tooling echosystem offers various tools to aid in the task. In this talk, I will discuss challenges we often encounter while debugging Go programs, for example, analyzing request execution latencies or finding memory leaks. I will present some of the recent improvements in the tooling to help tackle the challenges."
+      hasSpeaker=true
+      speaker="Hana Kim"
+      speakerImage="hanakim.jpg"
+     [[params.schedule.items]]
+      time="11:35"
+      topic="Lightning speak by NCS Labs"
+      description=""
+      hasSpeaker=false
+      speaker=""
+      speakerImage=""
+     [[params.schedule.items]]
+      time="11:40"
+      topic="Lightning speak by Loom Network"
+      description=""
+      hasSpeaker=true
+      speaker="Matthew Campbell"
+      speakerImage="matthewcampbell.jpg"
+     [[params.schedule.items]]
+      time="11:45"
+      topic="Pre-lunch keynote: Go for Grab"
+      description="An inside look at how Go drives all our critical system development, from overall architecture down to tools and utilities to support our engineering processes "
+      hasSpeaker=true
+      speaker="Stephen Kruger"
+      speakerImage="stephenkruger.jpg"
+     [[params.schedule.items]]
+      time="12:25"
+      topic="Lunch"
+      description=""
+      hasSpeaker=false
+     [[params.schedule.items]]
+      time="13:40"
+      topic="Optimize For Correctness"
+      description=""
+      hasSpeaker=true
+      speaker="William Kennedy"
+      speakerImage="williamkennedy.jpg"
+     [[params.schedule.items]]
+      time="14:05"
+      topic="Build your own distributed database"
+      description=""
+      hasSpeaker=true
+      speaker="Matthew Campbell"
+      speakerImage="matthewcampbell.jpg"
+     [[params.schedule.items]]
+      time="14:30"
+      topic="The Scandalous Story of Dreadful Code Written by the Best of Us"
+      description=""
+      hasSpeaker=true
+      speaker="Katrina Owen"
+      speakerImage="katrinaowen.jpg"
+     [[params.schedule.items]]
+      time="14:55"
+      topic="Erlang for Go developers"
+      description=""
+      hasSpeaker=true
+      speaker="Christopher Molozian"
+      speakerImage="christophermolozian.jpg"
+     [[params.schedule.items]]
+      time="15:20"
+      topic="Leveraging Go in our coworking platforms"
+      description=""
+      hasSpeaker=true
+      speaker="Beverly Dolor"
+      speakerImage="beverlydolor.jpg"
+     [[params.schedule.items]]
+      time="15:45"
+      topic="Teabreak"
+      description=""
+      hasSpeaker=false
+     [[params.schedule.items]]
+      time="16:55"
+      topic="Reflections on Trusting Trust for Go"
+      description=""
+      hasSpeaker=true
+      speaker="Yeo Kheng Meng"
+      speakerImage="khengmeng.jpg"
+     [[params.schedule.items]]
+      time="16:55"
+      topic="The Lost Art of Bondage"
+      description=""
+      hasSpeaker=true
+      speaker="Chew Xuanyi"
+      speakerImage="chewxuanyi.jpg"
+     [[params.schedule.items]]
+      time="17:05"
+      topic="Testing and Automation in the era of Kubernetes"
+      description=""
+      hasSpeaker=true
+      speaker="Veronica Lopez"
+      speakerImage="veronicalopez.png"
+     [[params.schedule.items]]
+      time="17:30"
+      topic="TBC"
+      description=""
+      hasSpeaker=true
+      speaker="Ajey Gore"
+      speakerImage="ajeygore.jpg"
+     [[params.schedule.items]]
+      time="18:30"
+      topic="Closing remarks"
+      description=""
+      hasSpeaker=true
+      speaker="Sau Sheong"
+      speakerImage="changsausheong.jpg"
 
   # speakers section
   [params.speakers]
@@ -292,49 +441,7 @@ theme = ""
     description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
     footertext = '** Demo images from <a href="http://plmd.me/" target="_blank">plmd.me</a>'
 
-  # 2017 Video
-  [params.pastvideo]
-    enable = false 
-    title = "Work"
-    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
-    footertext = '** Demo images from <a href="http://plmd.me/" target="_blank">plmd.me</a>'
-
-    [[params.pastvideo.row]]
-      img = "work_1.jpg"
-      alt = "Image2"
-      title = "Project 1"
-      subtitle = "Branding"
-
-    [[params.pastvideo.row]]
-      img = "work_2.jpg"
-      alt = "Image2"
-      title = "Project 2"
-      subtitle = "Design"
-
-    [[params.pastvideo.row]]
-      img = "work_3.jpg"
-      alt = "Image3"
-      title = "Project 3"
-      subtitle = "Design"
-
-    [[params.pastvideo.row]]
-      img = "work_4.jpg"
-      alt = "Image4"
-      title = "Project 4"
-      subtitle = "Design"
-
-    [[params.pastvideo.row]]
-      img = "work_5.jpg"
-      alt = "Image5"
-      title = "Project 5"
-      subtitle = "Design"
-
-    [[params.pastvideo.row]]
-      img = "work_6.jpg"
-      alt = "Image6"
-      title = "Project 6"
-      subtitle = "Design"
-
+  
   #sponsors
   [params.sponsors]
     enable = true
