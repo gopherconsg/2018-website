@@ -22,7 +22,7 @@
                     {{ end }}
 
                     <li class="active">
-                        <a href="#" data-nav-section="home">
+                        <a class="navPadding" href="#" data-nav-section="home">
                             <span>{{ with .Site.Params.navigation.home }}{{ . | markdownify }}{{ end }}</span>
                         </a>
                     </li>
@@ -30,58 +30,58 @@
 
                     {{ if .Site.Params.workshop.enable }}
                     <li>
-                        <a href="#" data-nav-section="workshop">
+                        <a class="navPadding" href="#" data-nav-section="workshop">
                             <span>{{ with .Site.Params.navigation.workshop }}{{ . | markdownify }}{{ end }}</span>
                         </a>
                     </li>
                     {{ end }} {{ if .Site.Params.schedule.enable }}
                     <li>
-                        <a href="#" data-nav-section="schedule">
+                        <a class="navPadding" href="#" data-nav-section="schedule">
                             <span>{{ with .Site.Params.navigation.schedule}}{{ . | markdownify }}{{ end }}</span>
                         </a>
                     </li>
                     {{ end }} {{ if .Site.Params.venue.enable }}
                     <li>
-                        <a href="#" data-nav-section="venue">
+                        <a class="navPadding" href="#" data-nav-section="venue">
                             <span>{{ with .Site.Params.navigation.venue}}{{ . | markdownify }}{{ end }}</span>
                         </a>
                     </li>
                     {{ end }} {{ if .Site.Params.speakers.enable }}
                     <li>
-                        <a href="#" data-nav-section="speakers">
+                        <a class="navPadding" href="#" data-nav-section="speakers">
                             <span>{{ with .Site.Params.navigation.speakers }}{{ . | markdownify }}{{ end }}</span>
                         </a>
                     </li>
                     {{ end }} {{ if .Site.Params.team.enable }}
                     <li>
-                        <a href="#" data-nav-section="team">
+                        <a class="navPadding" href="#" data-nav-section="team">
                             <span>{{ with .Site.Params.navigation.team}}{{ . | markdownify }}{{ end }}</span>
                         </a>
                     </li>
                     {{ end }} {{ if .Site.Params.conduct.enable }}
                     <li>
-                        <a href="#" data-nav-section="conduct">
+                        <a class="navPadding" href="#" data-nav-section="conduct">
                             <span>{{ with .Site.Params.navigation.conduct}}{{ . | markdownify }}{{ end }}</span>
                         </a>
                     </li>
                     {{ end }}
                     {{ if .Site.Params.ticket.enable }}
                     <li>
-                        <a href="#" data-nav-section="ticket">
+                        <a class="navPadding" href="#" data-nav-section="ticket">
                             <span>{{ with .Site.Params.navigation.ticket}}{{ . | markdownify }}{{ end }}</span>
                         </a>
                     </li>
                     {{ end }} 
                     {{ if .Site.Params.pastvideo.enable }}
                     <li>
-                        <a href="#" data-nav-section="pastvideo">
+                        <a class="navPadding" href="#" data-nav-section="pastvideo">
                             <span>{{ with .Site.Params.navigation.pastvideo}}{{ . | markdownify }}{{ end }}</span>
                         </a>
                     </li>
                     {{ end }} 
                     {{ range .Site.Menus.postpend }}
                     <li>
-                        <a class="external" href="{{ .URL }}">
+                        <a class="navPadding" class="external" href="{{ .URL }}">
                             <span>{{ .Name | markdownify }}</span>
                         </a>
                     </li>

@@ -1,15 +1,45 @@
-	<section id="fh5co-services" data-section="schedule">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-12 section-heading text-center">
-					<h2 class="to-animate">{{ with .Site.Params.schedule.title }}{{ . }}{{ end }}</h2>
-					<div class="row">
-						<div class="col-md-8 col-md-offset-2 subtext to-animate">
-							<h3>{{ with .Site.Params.schedule.description }}{{ . | markdownify }}{{ end }}</h3>
-						</div>
+<section id="fh5co-services" data-section="schedule">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12 section-heading text-center">
+				<h2 class="to-animate">{{ with .Site.Params.schedule.title }}{{ . }}{{ end }}</h2>
+			</div>
+		</div>
+		<div class="row">
+			<div class="container-fluid">
+				<div class="row to-animate">
+					<div class="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2">
+						<ul class="timeline">
+							{{range .Site.Params.schedule.items}}
+							<li class="timeline-item">
+								<div class="timeline-info">
+									<span>{{ .time | markdownify }}</span>
+								</div>
+								<div class="timeline-marker"></div>
+								<div class="timeline-content">
+									<h3 class="timeline-title">{{ .topic | markdownify }}</h3>
+									<p class="courseDesciption text-muted">{{ .description | markdownify }}</p>
+									{{ if .hasSpeaker }}
+									<div class="speaker-block">
+										<div class="speaker-img-xs">
+											<img src="images/speakers/{{ .speakerImage }}" class="speaker-img-responsive center-block" alt="Robert Griesemer">
+										</div>
+										<div class="speaker-bio-link">{{ .speaker | markdownify }}
+											<span>
+										</div>
+									</div>
+									{{end}}
+								</div>
+							</li>
+							{{ end }}
+							<li class="timeline-item">
+							</li>
+						</ul>
+						<br/>
 					</div>
 				</div>
 			</div>
-			<div class="row row-bottom-padded-sm">
 		</div>
-	</section>
+		<div class="row row-bottom-padded-sm">
+		</div>
+</section>
