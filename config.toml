@@ -290,7 +290,7 @@ theme = ""
     [[params.speakers.item2]]
       name = "Chew Xuanyi"
       position = "Erlang for GO developers"
-      description =  "Chris is a core engineer and cofounder at Heroic Labs. Prior to founding Heroic Labs he worked on scalable server systems at Basho Technologies for Riot Games, Rovio Entertainment, Demonware, and others. His background is in database technology and the design and implementation of distributed server systems." 
+      description =  " Xuanyi is the chief data scientist at Ordermentum. In his free time he builds neural networks and deep learning systems for fun and profit. His goal in life is to ensure the rise of Skyne."
       img = "chewxuanyi.jpg"
       alt = "Chew Xuanyi"
     
