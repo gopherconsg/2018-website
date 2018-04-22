@@ -1268,7 +1268,6 @@ h6 {
   font-weight: 400;
   color: #fff;
   margin-bottom: 0px;
-  margin-top:-20px;
 }
 
 #fh5co-workshop .fh5co-position{
@@ -1387,7 +1386,7 @@ section#fh5co-workshop{
   -webkit-transform: rotate(-1.7deg);
   -o-transform: rotate(-1.7deg);
   -moz-transform: rotate(-1.7deg);
-  background-color: #fff;
+  /* background-color: #fff; */
   content: "";
   z-index: 3;
   display: inline-block;
@@ -1397,7 +1396,7 @@ section#fh5co-workshop{
 }
 
 #fh5co-sponsors .section-heading h2 {
-  /* color: #fff; */
+   /* color: #4444;   */
 }
 
 #fh5co-sponsors:before {
@@ -1428,13 +1427,7 @@ section#fh5co-workshop{
   *display: inline;
 }
 
-#fh5co-sponsors .icon:before {
-  color: #fff;
-}
 
-#fh5co-sponsors .section-heading h2 {
-  color: #fff;
-}
 
 #fh5co-sponsors .section-heading h2.left-border:after {
   background: rgba(255, 255, 255, 0.3);
