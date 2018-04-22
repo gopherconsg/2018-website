@@ -126,7 +126,7 @@ theme = ""
       speakerImage="elissalim.jpg"
     [[params.schedule.items]]
       time="10:15"
-      topic="Teabreak"
+      topic="Tea break"
       description=""
       hasSpeaker=false
       speaker=""
@@ -147,14 +147,14 @@ theme = ""
       speakerImage="hanakim.jpg"
      [[params.schedule.items]]
       time="11:35"
-      topic="Lightning speak by NCS Labs"
+      topic="Sponsor lightning talk"
       description=""
       hasSpeaker=false
       speaker=""
       speakerImage=""
      [[params.schedule.items]]
       time="11:40"
-      topic="Lightning speak by Loom Network"
+      topic="Sponsor lightning talk"
       description=""
       hasSpeaker=true
       speaker="Matthew Campbell"
@@ -201,25 +201,25 @@ theme = ""
       speakerImage="christophermolozian.jpg"
      [[params.schedule.items]]
       time="15:20"
-      topic="Leveraging Go in our coworking platforms"
+      topic="Go and the future of offices"
       description="Beverly will share how they were able to leverage Go to build Spacemob's coworking ecosystem from scratch.  From their API, marketing website, members' portal, meeting room booking, payment, checkin, to various reporting and dashboard applications. She will also share how they are using it now that they are part of WeWork's Technology department where they continuously build applications that connects the physical to digital and making spaces self-sufficient and more interactive."
       hasSpeaker=true
       speaker="Beverly Dolor"
       speakerImage="beverlydolor.jpg"
      [[params.schedule.items]]
       time="15:45"
-      topic="Teabreak"
+      topic="Tea break"
       description=""
       hasSpeaker=false
      [[params.schedule.items]]
-      time="16:55"
+      time="16:15"
       topic="Reflections on Trusting Trust for Go"
       description="Most of us take our compilers for granted. In goes our code, out comes our binary that is supposed to behave the way we expect it to. In my talk, I’ll attempt to do a proof of concept demonstration to show how can one build virtually undetectable malicious compiler. "
       hasSpeaker=true
       speaker="Yeo Kheng Meng"
       speakerImage="khengmeng.jpg"
      [[params.schedule.items]]
-      time="16:55"
+      time="16:40"
       topic="The Lost Art of Bondage"
       description="Not very often do developers need to create bindings written in other languages. The Go ecosystem is so rich. But in the rare occasion one has to develop bindings, some thought should be given. "
       hasSpeaker=true
@@ -234,7 +234,7 @@ theme = ""
       speakerImage="veronicalopez.png"
      [[params.schedule.items]]
       time="17:30"
-      topic="TBC"
+      topic="Closing keynote"
       description=""
       hasSpeaker=true
       speaker="Ajey Gore"
