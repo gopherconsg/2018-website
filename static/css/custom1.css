@@ -206,35 +206,38 @@ figure.twitter-logo img {
 
 img.img-responsive.platinum-sponsor-logos {
   display: block;
-  width: auto;
-  max-width: 280px;
-  height: auto;
-  margin: 10px auto;
+  /* width: auto; */
+  max-width: 300px;
+  /* height: auto; */
+  /* margin: 10px auto; */
 }
 
 img.img-responsive.gold-sponsor-logos {
   display: block;
-  width: auto;
+  /* width: auto;
   max-width: 250px;
   height: auto;
-  margin: 10px auto;
+  margin: 10px auto; */
+  max-width: 300px;
 }
 
 img.img-responsive.silver-sponsor-logos {
   display: block;
-  width: auto;
+  /* width: auto;
   max-width: 180px;
   height: auto;
-  margin: 10px auto;
+  margin: 10px auto; */
+  max-width: 300px;
 }
 
 
 img.img-responsive.venue-sponsor-logos {
   display: block;
-  width: auto;
+  /* width: auto;
   max-width: 200px;
   height: auto;
-  margin: 0 auto;
+  margin: 0 auto; */
+  max-width: 300px;
 }
 
 .img-svg {
@@ -254,9 +257,28 @@ img.img-responsive.venue-sponsor-logos {
 }
 
 .sponsor-row div:not(:last-child) {
-  margin-right: 1.2em;
+  /* margin-right: 1.2em; */
 }
 
 .sponsor-invite-text {
-  margin-top: 2.5em;
+  /* margin-top: 2.5em; */
+}
+
+.sponsor-title{
+  font-size: .80em;
+  padding-top: 30px;
+  color: rgba(128, 128, 128, 0.52);
+}
+
+.sponsor-title::after{
+      content: "";
+    position: absolute;
+    display: block;
+    width: 80px;
+    height: 1px;
+    background: #52d3aa;
+    left: 50%;
+    margin-left: -40px;
+    bottom: 0;
+    opacity: .2;
 }
