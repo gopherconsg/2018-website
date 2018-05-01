@@ -227,20 +227,13 @@ theme = ""
       speakerImage="chewxuanyi.jpg"
      [[params.schedule.items]]
       time="17:05"
-      topic="Testing and Automation in the era of Kubernetes"
-      description="As containers and orchestration technologies went from niche to necessary tools to build modern distributed systems, traditional testing is no longer enough. Comprehensive e2e and system cases represent a great solution, but it's often easier said than done. Since Go was born with productivity in mind, in this talk, I will share my experience of building tools to validate distributed systems, revisiting common mistakes, how to avoid them, and showing how to take advantage of the power of Go to make sure our systems behavior match our original expectations, with scalability in mind through automation."
-      hasSpeaker=true
-      speaker="Veronica Lopez"
-      speakerImage="veronicalopez.png"
-     [[params.schedule.items]]
-      time="17:30"
       topic="GoJek gets Go"
       description=""
       hasSpeaker=true
       speaker="Ajey Gore"
       speakerImage="ajeygore.jpg"
      [[params.schedule.items]]
-      time="18:30"
+      time="17:30"
       topic="Closing remarks"
       description=""
       hasSpeaker=true
@@ -342,13 +335,6 @@ theme = ""
       description = " Suthen is the Head of Engineering for Grab's Singapore R&D Centre. He has been with Grab for over five years - from the time it was called MyTeksi and based in a store room in Petaling Jaya, Malaysia - and played a number roles including its first Technical Lead, Head of Business Operations, and Chief of Staff. "
       img = "suthenthomas.png"
       alt = "Suthen Thomas"
-
-    [[params.speakers.item5]]
-      name = "Veronica Lopez"
-      position = "Testing and Automation in the era of Kubernetes"
-      description = "Verónica López is a Mexican computer scientist who currently finds joy building distributed systems with Go (@CoreOS) and Elixir, and trying to make physics and computer science converge."
-      img = "veronicalopez.png"
-      alt = "Veronica Lopez"
 
     [[params.speakers.item5]]
       name = "Yeo Kheng Meng"
