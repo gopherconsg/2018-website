@@ -158,7 +158,7 @@ theme = ""
       description=""
       hasSpeaker=true
       speaker="Matthew Campbell"
-      speakerImage="matthewcampbell.jpg"
+      speakerImage=""
      [[params.schedule.items]]
       time="11:45"
       topic="Pre-lunch keynote: Go for Grab"
@@ -234,7 +234,7 @@ theme = ""
       speakerImage="veronicalopez.png"
      [[params.schedule.items]]
       time="17:30"
-      topic="Closing keynote"
+      topic="GoJek gets Go"
       description=""
       hasSpeaker=true
       speaker="Ajey Gore"
@@ -459,7 +459,7 @@ theme = ""
   #sponsors
   [params.sponsors]
     enable = true
-    title = "Partners"
+    title = "Sponsors"
 
 
   # Footer section
