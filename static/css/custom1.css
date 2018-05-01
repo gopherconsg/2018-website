@@ -206,35 +206,35 @@ figure.twitter-logo img {
 
 img.img-responsive.platinum-sponsor-logos {
   display: block;
-  width: auto;
-  max-width: 280px;
-  height: auto;
-  margin: 10px auto;
+  /* width: auto; */
+  /* max-width: 280px; */
+  /* height: auto; */
+  /* margin: 10px auto; */
 }
 
 img.img-responsive.gold-sponsor-logos {
   display: block;
-  width: auto;
+  /* width: auto;
   max-width: 250px;
   height: auto;
-  margin: 10px auto;
+  margin: 10px auto; */
 }
 
 img.img-responsive.silver-sponsor-logos {
   display: block;
-  width: auto;
+  /* width: auto;
   max-width: 180px;
   height: auto;
-  margin: 10px auto;
+  margin: 10px auto; */
 }
 
 
 img.img-responsive.venue-sponsor-logos {
   display: block;
-  width: auto;
+  /* width: auto;
   max-width: 200px;
   height: auto;
-  margin: 0 auto;
+  margin: 0 auto; */
 }
 
 .img-svg {
@@ -254,9 +254,9 @@ img.img-responsive.venue-sponsor-logos {
 }
 
 .sponsor-row div:not(:last-child) {
-  margin-right: 1.2em;
+  /* margin-right: 1.2em; */
 }
 
 .sponsor-invite-text {
-  margin-top: 2.5em;
+  /* margin-top: 2.5em; */
 }
