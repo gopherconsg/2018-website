@@ -459,7 +459,7 @@ theme = ""
   #sponsors
   [params.sponsors]
     enable = true
-    title = "Partners"
+    title = "Sponsors"
 
 
   # Footer section
