@@ -451,6 +451,9 @@ h6 {
 #fh5co-home .text-wrap {
   /* height: 900px; */
 }
+ #fh5co-home a.address {
+  font-size: .80em;
+ }
 
 #fh5co-home .text-wrap {
   display: table;
