@@ -249,6 +249,11 @@ theme = ""
       topic="After Party"
       description="TBC"
       hasSpeaker=false
+     [[params.schedule.items]]
+      time="23:00"
+      topic="End"
+      description=""
+      hasSpeaker=false
 
   # speakers section
   [params.speakers]
