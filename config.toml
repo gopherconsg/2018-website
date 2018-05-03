@@ -118,56 +118,56 @@ theme = ""
       speaker="Russ Cox"
       speakerImage="RussCox.jpg"
     [[params.schedule.items]]
-      time="09:50"
+      time="09:55"
       topic="Project-driven journey to learning Go"
       description="It’s inevitable to feel overwhelmed when learning any programming language, especially for those who come from a non-software development background. It takes time and patience to get used to syntax, let alone understanding, exploring and implementing the underlying concepts. How will you strategise and optimise learning within a short period? What will you prioritise learning first? Being new to Go, Elissa shares her learning journey through a data analysis project."
       hasSpeaker=true
       speaker="Elissa Lim"
       speakerImage="elissalim.jpg"
     [[params.schedule.items]]
-      time="10:15"
+      time="10:20"
       topic="Tea break"
       description=""
       hasSpeaker=false
       speaker=""
       speakerImage=""
      [[params.schedule.items]]
-      time="10:45"
+      time="10:50"
       topic="Resiliency in Distributed Systems"
       description="Running distributed systems with high uptime is hard. Faults always occur in a complex distributed environment with too many moving parts. Systems need to be designed from the start to be resilient against some of the common faults in live production systems at scale such as sudden surge in traffic, bad or failed dependencies, network outages, hosts going down etc. To safe guard against these failures and potential business loss, we discuss some of the basic patterns to be followed in designing resilient distributed systems at scale such as Circuit Breakers, BulkHeads, Fallbacks, Redundancies, Metrics and Monitoring. This talk is for everyone who is interested in building highly reliable distributed systems in Go and also hate answering pagers at 3 am in the morning."
       hasSpeaker=true
       speaker="Rajeev N Bharshetty"
       speakerImage="rajeevbharshetty.jpg"
      [[params.schedule.items]]
-      time="11:10"
+      time="11:15"
       topic="Understanding Running Go Programs"
       description="Profiling and tracing is an important part of program development and management. The Go tooling echosystem offers various tools to aid in the task. In this talk, I will discuss challenges we often encounter while debugging Go programs, for example, analyzing request execution latencies or finding memory leaks. I will present some of the recent improvements in the tooling to help tackle the challenges."
       hasSpeaker=true
       speaker="Hana Kim"
       speakerImage="hanakim.jpg"
      [[params.schedule.items]]
-      time="11:35"
+      time="11:40"
       topic="Sponsor lightning talk"
       description=""
       hasSpeaker=false
       speaker=""
       speakerImage=""
      [[params.schedule.items]]
-      time="11:40"
+      time="11:45"
       topic="Sponsor lightning talk"
       description=""
       hasSpeaker=true
       speaker="Matthew Campbell"
       speakerImage=""
      [[params.schedule.items]]
-      time="11:45"
+      time="11:50"
       topic="Pre-lunch keynote: Go for Grab"
       description="An inside look at how Go drives all our critical system development, from overall architecture down to tools and utilities to support our engineering processes "
       hasSpeaker=true
       speaker="Stephen Kruger"
       speakerImage="stephenkruger.jpg"
      [[params.schedule.items]]
-      time="12:25"
+      time="12:30"
       topic="Lunch"
       description=""
       hasSpeaker=false
@@ -194,51 +194,61 @@ theme = ""
       speakerImage="katrinaowen.jpg"
      [[params.schedule.items]]
       time="14:55"
+      topic="Tea break"
+      description=""
+      hasSpeaker=false
+     [[params.schedule.items]]
+      time="15:25"
       topic="Erlang for Go developers"
       description="Go and Erlang each have a fantastic runtime model for lightweight concurrency. This talk will introduce the Erlang actor model, supervisors, supervision trees, and other concepts which can be built on top of Go’s CSP concurrency primitives to build distributed systems. "
       hasSpeaker=true
       speaker="Christopher Molozian"
       speakerImage="christophermolozian.jpg"
      [[params.schedule.items]]
-      time="15:20"
+      time="15:50"
       topic="Go and the future of offices"
       description="Beverly will share how they were able to leverage Go to build Spacemob's coworking ecosystem from scratch.  From their API, marketing website, members' portal, meeting room booking, payment, checkin, to various reporting and dashboard applications. She will also share how they are using it now that they are part of WeWork's Technology department where they continuously build applications that connects the physical to digital and making spaces self-sufficient and more interactive."
       hasSpeaker=true
       speaker="Beverly Dolor"
       speakerImage="beverlydolor.jpg"
      [[params.schedule.items]]
-      time="15:45"
-      topic="Tea break"
+      time="16:15"
+      topic="Stretch break"
       description=""
       hasSpeaker=false
      [[params.schedule.items]]
-      time="16:15"
+      time="16:30"
       topic="Reflections on Trusting Trust for Go"
       description="Most of us take our compilers for granted. In goes our code, out comes our binary that is supposed to behave the way we expect it to. In my talk, I’ll attempt to do a proof of concept demonstration to show how can one build virtually undetectable malicious compiler. "
       hasSpeaker=true
       speaker="Yeo Kheng Meng"
       speakerImage="khengmeng.jpg"
      [[params.schedule.items]]
-      time="16:40"
+      time="16:55"
       topic="The Lost Art of Bondage"
       description="Not very often do developers need to create bindings written in other languages. The Go ecosystem is so rich. But in the rare occasion one has to develop bindings, some thought should be given. "
       hasSpeaker=true
       speaker="Chew Xuanyi"
       speakerImage="chewxuanyi.jpg"
      [[params.schedule.items]]
-      time="17:05"
+      time="17:20"
       topic="GoJek gets Go"
       description=""
       hasSpeaker=true
       speaker="Ajey Gore"
       speakerImage="ajeygore.jpg"
      [[params.schedule.items]]
-      time="17:30"
+      time="18:00"
       topic="Closing remarks"
       description=""
       hasSpeaker=true
       speaker="Sau Sheong"
       speakerImage="changsausheong.jpg"
+     [[params.schedule.items]]
+      time="19:30"
+      topic="After Party"
+      description="TBC"
+      hasSpeaker=false
 
   # speakers section
   [params.speakers]
