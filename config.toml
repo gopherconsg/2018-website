@@ -231,7 +231,7 @@ theme = ""
       speakerImage="chewxuanyi.jpg"
      [[params.schedule.items]]
       time="17:20"
-      topic="GoJek gets Go"
+      topic="Closing keynote: GO-JEK gets Go"
       description=""
       hasSpeaker=true
       speaker="Ajey Gore"
@@ -245,7 +245,7 @@ theme = ""
       speakerImage="changsausheong.jpg"
      [[params.schedule.items]]
       time="19:30"
-      topic="After Party"
+      topic="After-party"
       description="TBC"
       hasSpeaker=false
      [[params.schedule.items]]
