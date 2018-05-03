@@ -157,7 +157,7 @@ theme = ""
       topic="Sponsor lightning talk"
       description=""
       hasSpeaker=true
-      speaker="Matthew Campbell"
+      hasSpeaker=false
       speakerImage=""
      [[params.schedule.items]]
       time="11:50"
