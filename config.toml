@@ -156,7 +156,6 @@ theme = ""
       time="11:45"
       topic="Sponsor lightning talk"
       description=""
-      hasSpeaker=true
       hasSpeaker=false
       speakerImage=""
      [[params.schedule.items]]
