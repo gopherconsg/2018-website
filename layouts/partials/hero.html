@@ -17,39 +17,6 @@
 
 				</div>
 				<div class="row">
-					<div class="col-md-12">
-						Check out what happened last year!
-						<div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="false">
-							<!-- Indicators -->
-							<ol class="carousel-indicators">
-								<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-								{{ range .Site.Params.hero.pastvideo.row }}
-								<li data-target="#myCarousel" data-slide-to="{{ .slideto }}" class=""></li>
-								{{ end }}
-							</ol>
-							<div class="carousel-inner" role="listbox">
-								<div class="item active">
-									<iframe src="https://www.youtube.com/embed/Jpgqy8K6cyc?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-								</div>
-								{{ range .Site.Params.hero.pastvideo.row }}
-								<div class="item">
-									<iframe src="{{.video}}" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-								</div>
-								{{ end }}
-							</div>
-							<a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-								<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-								<span class="sr-only">Previous</span>
-							</a>
-							<a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-								<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-								<span class="sr-only">Next</span>
-							</a>
-						</div>
-						<br/>
-					</div>
-				</div>
-				<div class="row">
 					<div class="row">
 						<p><b>Go Fundamentals Workshop</b> <br/> 2 May 2018 <br/> 9am to 6pm, registration starts at 8:30am  <br/> <a class="address" href="https://goo.gl/maps/SEfsu4USzh22"> Learning Institute, Event Hall 2-1 <br/> 11 Eunos Road 8, Singapore 408601</a> </p>
 					</div>
