@@ -450,7 +450,7 @@ theme = ""
 
   # Ticket section
   [params.ticket]
-    enable = true 
+    enable = false 
     title = "Tickets"
     description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
     footertext = '** Demo images from <a href="http://plmd.me/" target="_blank">plmd.me</a>'
